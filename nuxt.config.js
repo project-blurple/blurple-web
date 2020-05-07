@@ -15,6 +15,6 @@ export default {
     fallback: true,
   },
   build: {
-    publicPath: './',
+    publicPath: '/projectblurple/_nuxt/',
   },
 };
