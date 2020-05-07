@@ -10,13 +10,13 @@ $grey-dark: hsl(0, 0%, 86%);
 $grey: hsl(0, 0%, 71%);
 $family-sans-serif: "Whitney Book", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
 "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$footer-background-color: $black;
 
 // Import the bits of bulma we need
 @import "~bulma/sass/utilities/all";
 @import "~bulma/sass/base/minireset";
 @import "~bulma/sass/base/generic";
-@import "~bulma/sass/layout/hero";
-@import "~bulma/sass/layout/section";
+@import "~bulma/sass/layout/all";
 @import "~bulma/sass/grid/columns";
 @import "~bulma/sass/elements/container";
 @import "~bulma/sass/elements/title";
@@ -29,5 +29,6 @@ $family-sans-serif: "Whitney Book", BlinkMacSystemFont, -apple-system, "Segoe UI
 // Import our components
 @import "base";
 @import "header";
-@import "get_involved";
+@import "actions_list";
 @import "colors";
+@import "footer";

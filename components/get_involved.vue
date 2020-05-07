@@ -1,5 +1,5 @@
 <template>
-  <section class="section get-involved">
+  <section class="section get-involved actions-list">
     <div class="container">
       <h1 class="title">
         Get Involved
