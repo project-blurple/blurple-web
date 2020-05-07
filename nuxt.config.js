@@ -11,4 +11,7 @@ export default {
   css: [
     '~/assets/scss/style.scss',
   ],
+  generate: {
+    fallback: true,
+  },
 };

@@ -4,6 +4,9 @@
   "description": "Stats and information about Project Blurple",
   "author": "MattIPv4",
   "private": true,
+  "engines": {
+    "node": "12.16.2"
+  },
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate",
