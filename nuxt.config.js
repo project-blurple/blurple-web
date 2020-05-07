@@ -14,4 +14,7 @@ export default {
   generate: {
     fallback: true,
   },
+  build: {
+    publicPath: './',
+  },
 };
