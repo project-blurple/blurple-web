@@ -1,0 +1,11 @@
+$white: #23272A;
+
+$black: hsl(0, 0%, 100%);
+$black-bis: hsl(0, 0%, 98%);
+$black-ter: hsl(0, 0%, 96%);
+$grey-darker: hsl(0, 0%, 93%);
+$grey-dark: hsl(0, 0%, 86%);
+$grey: hsl(0, 0%, 71%);
+
+@import "~bulma/bulma";
+@import "../fonts/stylesheet.css";
