@@ -26,8 +26,16 @@ a {
 }
 
 .section {
+  padding: 5rem 1.5rem;
+
   .title {
     font-size: 3.25rem;
+  }
+
+  p {
+    + p {
+      margin: 1.5rem 0 0;
+    }
   }
 }
 
@@ -35,9 +43,11 @@ code {
   background: $black;
   border: .1em solid $blurple;
   box-shadow: -.2em .2em $dark-blurple;
-  color: $dark-blurple;
+  color: $blurple;
+  display: inline-block;
   font-family: "Uni Sans", $family-sans-serif;
   font-weight: 900;
+  line-height: 1;
   margin: 0 0 0 .25em;
   padding: .25em .5em .1em;
 }
