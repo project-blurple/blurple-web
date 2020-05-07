@@ -1,4 +1,6 @@
 $white: #23272A;
+$blurple: #7289DA;
+$dark-blurple: #4E5D94;
 
 $black: hsl(0, 0%, 100%);
 $black-bis: hsl(0, 0%, 98%);
@@ -7,5 +9,13 @@ $grey-darker: hsl(0, 0%, 93%);
 $grey-dark: hsl(0, 0%, 86%);
 $grey: hsl(0, 0%, 71%);
 
+$family-sans-serif: "Whitney Book", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
 @import "~bulma/bulma";
-@import "../fonts/stylesheet.css";
+@import "../fonts/uni-sans/stylesheet.css";
+@import "../fonts/whitney-book/stylesheet.css";
+
+@import "base";
+@import "header";
+@import "get_involved";

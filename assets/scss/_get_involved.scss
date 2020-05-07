@@ -1,0 +1,14 @@
+.section {
+  ol {
+    li {
+      margin: 0 0 1.5rem;
+
+      &::marker {
+        font-size: 2.5rem;
+        font-family: "Uni Sans", sans-serif;
+        font-weight: 900;
+        color: #4E5D94;
+      }
+    }
+  }
+}

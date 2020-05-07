@@ -1,26 +1,21 @@
 <template>
   <div>
     <Header></Header>
-    <div class="container">
-      <p>Hello</p>
-    </div>
+    <GetInvolved></GetInvolved>
+    <Colors></Colors>
   </div>
 </template>
 
 <script>
   import Header from '../components/header.vue'
+  import GetInvolved from '../components/get_involved.vue'
+  import Colors from '../components/colors.vue'
 
   export default {
     components: {
-      Header
-    }
-  }
+      Header,
+      GetInvolved,
+      Colors,
+    },
+  };
 </script>
-
-<style>
-  html,
-  body {
-    margin: 0;
-    min-height: 100vh;
-  }
-</style>

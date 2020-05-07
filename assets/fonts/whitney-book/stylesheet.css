@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Whitney';
+    src: url('Whitney-Book.eot');
+    src: local('Whitney-Book'),
+        url('Whitney-Book.eot?#iefix') format('embedded-opentype'),
+        url('Whitney-Book.woff2') format('woff2'),
+        url('Whitney-Book.woff') format('woff'),
+        url('Whitney-Book.ttf') format('truetype'),
+        url('Whitney-Book.svg#Whitney-Book') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
