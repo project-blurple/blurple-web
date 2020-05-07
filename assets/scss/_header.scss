@@ -1,18 +1,18 @@
 .hero {
-  position: relative;
   background-image: url("../img/waves.svg");
+  background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom right;
+  position: relative;
 
   .media {
-    margin: 13rem 0 3.5rem;
     align-items: flex-end;
+    margin: 13rem 0 3.5rem;
 
     .media-content {
+      margin: 0 0 3.5rem;
       text-align: right;
       text-transform: uppercase;
-      margin: 0 0 3.5rem;
 
       .title {
         font-size: 5rem;
@@ -26,18 +26,19 @@
 
     .media-right {
       img {
+        cursor: pointer;
         height: 13rem;
       }
     }
   }
 
   .waves {
+    bottom: 0;
+    left: 0;
     overflow: hidden;
     position: absolute;
-    top: 0;
-    left: 0;
     right: 0;
-    bottom: 0;
+    top: 0;
 
     svg {
       width: 200%;
@@ -47,14 +48,14 @@
         animation-iteration-count: infinite;
 
         &:nth-child(1) {
-          fill: $dark-blurple;
-          animation-duration: 5s;
           animation-direction: reverse;
+          animation-duration: 5s;
+          fill: $dark-blurple;
         }
 
         &:nth-child(2) {
-          fill: $blurple;
           animation-duration: 7s;
+          fill: $blurple;
         }
       }
     }

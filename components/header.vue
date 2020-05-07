@@ -12,7 +12,8 @@
             </h2>
           </div>
           <div class="media-right">
-            <img src="../assets/img/brush.svg" />
+            <img v-if="icon === 1" src="../assets/img/brush.svg" @click="icon = 2">
+            <img v-if="icon === 2" src="../assets/img/roller.svg" @click="icon = 1">
           </div>
         </article>
       </div>
@@ -30,5 +31,10 @@
 <script>
   export default {
     name: 'Header',
+    data () {
+      return {
+        icon: 1,
+      };
+    },
   };
 </script>

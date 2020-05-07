@@ -6,21 +6,26 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    "lint": "npm run lint:eslint && npm run lint:sass-lint",
+    "lint:fix": "npm run lint:eslint:fix && npm run lint:sass-lint:fix",
+    "lint:eslint": "eslint --ignore-path .gitignore '**/*.@(js|vue)'",
+    "lint:eslint:fix": "npm run lint:eslint -- --fix",
+    "lint:sass-lint": "sass-lint 'assets/scss/**/*.scss' --verbose --no-exit --config .sasslintrc",
+    "lint:sass-lint:fix": "sass-lint-auto-fix 'assets/scss/**/*.scss'"
   },
   "dependencies": {
-    "bulma": "^0.8.2",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^2.0.0",
     "babel-eslint": "^10.0.1",
+    "bulma": "^0.8.2",
     "eslint": "^6.1.0",
     "eslint-plugin-nuxt": ">=0.4.2",
     "node-sass": "^4.14.1",
+    "sass-lint": "^1.13.1",
+    "sass-lint-auto-fix": "^0.21.0",
     "sass-loader": "^8.0.2"
   }
 }

@@ -1,13 +1,19 @@
-.section {
+.get-involved {
+  padding: 5rem 1.5rem;
+
+  .title {
+    margin: 0 0 2rem;
+  }
+
   ol {
     li {
       margin: 0 0 1.5rem;
 
       &::marker {
-        font-size: 2.5rem;
+        color: #4e5d94;
         font-family: "Uni Sans", sans-serif;
+        font-size: 2.5rem;
         font-weight: 900;
-        color: #4E5D94;
       }
     }
   }

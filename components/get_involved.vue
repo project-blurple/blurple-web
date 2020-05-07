@@ -1,7 +1,9 @@
 <template>
-  <section class="section">
+  <section class="section get-involved">
     <div class="container">
-      <h1 class="title">Get Involved</h1>
+      <h1 class="title">
+        Get Involved
+      </h1>
       <ol>
         <li>
           <p>
@@ -13,7 +15,7 @@
         <li>
           <p>
             Change your Discord avatar to use Blurple colors.
-            <br/>Use our <code><a href="https://projectblurple.com/paint/">blurple paint tool</a></code> or join the Discord
+            <br>Use our <code><a href="https://projectblurple.com/paint/">blurple paint tool</a></code> or join the Discord
             server and use the Blurplefier bots.
           </p>
         </li>
@@ -28,7 +30,7 @@
           <p>
             Get yourself the Blurple roles; type <code>=check</code> in the Blurplefier channels to get a role for
             your Blurple avatar.
-            <br/>Follow the instructions in <code>#submission-info</code> for how to register your Blurple server.
+            <br>Follow the instructions in <code>#submission-info</code> for how to register your Blurple server.
           </p>
         </li>
       </ol>

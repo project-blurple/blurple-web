@@ -1,0 +1,44 @@
+.colors {
+  background: $blurple;
+
+  .columns {
+    .column {
+      padding: 1.5rem 1rem;
+
+      .title {
+        margin-bottom: 2.5rem;
+      }
+    }
+
+    &:nth-child(1) {
+      .column {
+        &.is-two-thirds {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      .column {
+        &:nth-child(1) {
+          background: $dark-blurple;
+        }
+
+        &:nth-child(2) {
+          background: $black;
+
+          .title,
+          .subtitle {
+            color: $white;
+          }
+        }
+
+        &:nth-child(3) {
+          background: $white;
+        }
+      }
+    }
+  }
+}

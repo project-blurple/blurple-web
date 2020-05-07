@@ -12,8 +12,8 @@ body {
 .subtitle,
 {
   color: $black;
-  font-weight: 900;
   font-family: "Uni Sans", $family-sans-serif;
+  font-weight: 900;
 }
 
 a {
@@ -32,12 +32,12 @@ a {
 }
 
 code {
-  font-weight: 900;
-  font-family: "Uni Sans", $family-sans-serif;
   background: $black;
-  color: $dark-blurple;
-  padding: .25em .5em .1em;
-  margin: 0 0 0 .25em;
-  box-shadow: -.2em .2em $dark-blurple;
   border: .1em solid $blurple;
+  box-shadow: -.2em .2em $dark-blurple;
+  color: $dark-blurple;
+  font-family: "Uni Sans", $family-sans-serif;
+  font-weight: 900;
+  margin: 0 0 0 .25em;
+  padding: .25em .5em .1em;
 }
