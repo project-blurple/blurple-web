@@ -14,7 +14,4 @@ export default {
   generate: {
     fallback: true,
   },
-  build: {
-    publicPath: '/projectblurple/_nuxt/',
-  },
 };
