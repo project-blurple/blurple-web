@@ -1,5 +1,6 @@
 // Set some base variables
 $white: #23272a;
+$guild: #202225;
 $blurple: #7289da;
 $dark-blurple: #4e5d94;
 $black: hsl(0, 0%, 100%);
@@ -14,8 +15,7 @@ $footer-background-color: $black;
 
 // Import the bits of bulma we need
 @import "~bulma/sass/utilities/all";
-@import "~bulma/sass/base/minireset";
-@import "~bulma/sass/base/generic";
+@import "~bulma/sass/base/all";
 @import "~bulma/sass/layout/all";
 @import "~bulma/sass/grid/columns";
 @import "~bulma/sass/elements/container";
@@ -32,3 +32,4 @@ $footer-background-color: $black;
 @import "actions_list";
 @import "colors";
 @import "footer";
+@import "images";
