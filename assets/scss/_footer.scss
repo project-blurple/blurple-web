@@ -3,4 +3,12 @@
   .title {
     color: $white;
   }
+
+  p {
+    small {
+      display: block;
+      font-size: .85em;
+      margin: 5rem 0 0;
+    }
+  }
 }
