@@ -9,35 +9,38 @@
         <li>
           <p>
             The Project Blurple celebration is based in our official
-            <code><a href="https://discord.gg/7T7jQfN">Project Blurple Discord server</a></code>, join this to get
-            involved and chat with other Blurple users participating.
+            <code><a href="https://projectblurple.com/discord" target="_blank" rel="noopener">
+              Project Blurple Discord server</a></code>, join this to get involved and chat with other Blurple users
+            participating.
           </p>
         </li>
 
         <li>
           <p>
             We also have a community subreddit at
-            <code><a href="https://www.reddit.com/r/projectblurple">reddit.com/r/projectblurple</a></code> that you can
-            join, where you can share Blurple images, memories from past events and using Discord, as well as anything
-            else you can think of!
+            <code><a href="https://www.reddit.com/r/projectblurple" target="_blank" rel="noopener">
+              reddit.com/r/projectblurple</a></code> that you can join, where you can share Blurple images, memories
+            from past events and using Discord, as well as anything else you can think of!
           </p>
         </li>
 
         <li>
           <p>
             Get the latest updates from Project Blurple in your timeline by following
-            <code><a href="https://twitter.com/BlurpleProject">@BlurpleProject</a></code> on Twitter. The Project
-            Blurple executive team all have access to this account and share updates about the celebrations on it.
+            <code><a href="https://twitter.com/BlurpleProject" target="_blank" rel="noopener">@BlurpleProject</a></code>
+            on Twitter. The Project Blurple executive team all have access to this account and share updates about the
+            celebrations on it.
           </p>
         </li>
       </ol>
 
       <p>
         <small>
-          Project Blurple is not affiliated with <a href="https://discord.com">Discord Inc</a>.
+          Project Blurple is not affiliated with <a href="https://discord.com" target="_blank" rel="noopener">
+            Discord Inc</a>.
           <br>
           &copy; 2020 Project Blurple. All rights reserved.
-          Created by <a href="https://mattcowley.co.uk">v4</a>.
+          Created by <a href="https://mattcowley.co.uk" target="_blank" rel="noopener">v4</a>.
         </small>
       </p>
     </div>

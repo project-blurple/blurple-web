@@ -7,16 +7,16 @@
       <ol>
         <li>
           <p>
-            Join the official <code><a href="https://discord.gg/7T7jQfN">Project Blurple Discord server</a></code> to start
-            celebrating with us!
+            Join the official <code><a href="https://projectblurple.com/discord" target="_blank" rel="noopener">
+              Project Blurple Discord server</a></code> to start celebrating with us!
           </p>
         </li>
 
         <li>
           <p>
             Change your Discord avatar to use Blurple colors.
-            <br>Use our <code><a href="https://projectblurple.com/paint/">blurple paint tool</a></code> or join the Discord
-            server and use the Blurplefier bots.
+            <br>Use our <code><a href="https://projectblurple.com/paint/" target="_blank" rel="noopener">
+              blurple paint tool</a></code> or join the Discord server and use the Blurplefier bots.
           </p>
         </li>
 
