@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "nuxt",
     "generate": "nuxt generate",
+    "analyze": "nuxt build --analyze",
     "lint": "npm run lint:eslint && npm run lint:sass-lint",
     "lint:fix": "npm run lint:eslint:fix && npm run lint:sass-lint:fix",
     "lint:eslint": "eslint --ignore-path .gitignore '**/*.@(js|vue)'",
