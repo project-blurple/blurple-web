@@ -5,38 +5,58 @@
   background-size: cover;
   position: relative;
 
-  .media {
-    align-items: flex-end;
-    margin: 13rem 0 3.5rem;
+  .hero-body {
+    padding: 3rem 1.5rem;
 
     @media (max-width: $desktop) {
-      flex-direction: column;
-      margin: 13rem 0 1.5rem;
+      padding: 3rem .5rem;
     }
 
-    .media-content {
-      margin: 0 0 3.5rem;
-      text-align: right;
-      text-transform: uppercase;
+    .media {
+      align-items: flex-end;
+      margin: 13rem 0 3.5rem;
 
       @media (max-width: $desktop) {
-        margin: 0 0 1.5rem;
+        flex-direction: column;
+        margin: 13rem 0 1.5rem;
       }
 
-      .title {
-        font-size: 5rem;
-        margin: 0;
+      .media-content {
+        margin: 0 0 3.5rem;
+        text-align: right;
+        text-transform: uppercase;
+
+        @media (max-width: $desktop) {
+          margin: 0 0 1.5rem;
+        }
+
+        .title {
+          $title: 5;
+          $break: ($title * 16px) / .22;
+
+          font-size: $title * 1rem;
+          margin: 0;
+
+          @media (max-width: $break) {
+            font-size: 22vw;
+            margin: 0 0 1rem;
+          }
+        }
+
+        .subtitle {
+          font-size: 1.5rem;
+
+          @media (max-width: 363px) {
+            font-size: 8vw;
+          }
+        }
       }
 
-      .subtitle {
-        font-size: 1.5rem;
-      }
-    }
-
-    .media-right {
-      img {
-        cursor: pointer;
-        height: 13rem;
+      .media-right {
+        img {
+          cursor: pointer;
+          height: 13rem;
+        }
       }
     }
   }
