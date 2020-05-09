@@ -9,8 +9,12 @@
         <li>
           <p>
             The Project Blurple celebration is based in our official
-            <code><a href="https://projectblurple.com/discord" target="_blank" rel="noopener">
-              Project Blurple Discord server</a></code>, join this to get involved and chat with other Blurple users
+            <code><a
+              href="https://projectblurple.com/discord"
+              target="_blank"
+              rel="noopener"
+              data-print="discord.gg/blurple"
+            >Project Blurple Discord server</a></code>, join this to get involved and chat with other Blurple users
             participating.
           </p>
         </li>
@@ -36,11 +40,20 @@
 
       <p>
         <small>
-          Project Blurple is not affiliated with <a href="https://discord.com" target="_blank" rel="noopener">
-            Discord Inc</a>.
+          Project Blurple is not affiliated with <a
+            href="https://discord.com"
+            target="_blank"
+            rel="noopener"
+            data-print="discord.com"
+          >Discord Inc</a>.
           <br>
           &copy; 2020 Project Blurple. All rights reserved.
-          Created by <a href="https://mattcowley.co.uk" target="_blank" rel="noopener">v4</a>.
+          Created by <a
+            href="https://mattcowley.co.uk"
+            target="_blank"
+            rel="noopener"
+            data-print="mattcowley.co.uk"
+          >v4</a>.
         </small>
       </p>
     </div>

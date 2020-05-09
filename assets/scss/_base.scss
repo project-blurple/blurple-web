@@ -18,6 +18,14 @@ body {
 a {
   color: $blurple;
 
+  @media print {
+    &[data-print] {
+      &::after {
+        content: " (" attr(data-print) ")";
+      }
+    }
+  }
+
   &:hover,
   &:focus {
     color: $dark-blurple;
