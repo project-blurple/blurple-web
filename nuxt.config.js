@@ -18,7 +18,7 @@ export default {
       { name: 'title', content: name },
       { name: 'description', content: desc },
 
-      { name: 'twitter:card', content: 'large_summary_image' },
+      { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@blurpleproject' },
       { name: 'twitter:creator', content: '@MattIPv4' },
       { name: 'twitter:title', content: name },
