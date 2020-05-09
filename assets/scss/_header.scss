@@ -3,6 +3,7 @@
   background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
+  max-width: 100vw;
   position: relative;
 
   .hero-body {
@@ -13,13 +14,17 @@
     }
 
     .media {
-      align-items: flex-end;
-      margin: 13rem 0 3.5rem;
+      $title: 5;
+      $title-vw: 20;
+      $break: ($title * 16px) / ($title-vw / 100);
 
       @media (max-width: $desktop) {
         flex-direction: column;
         margin: 13rem 0 1.5rem;
       }
+
+      align-items: flex-end;
+      margin: 13rem 0 3.5rem;
 
       .media-content {
         margin: 0 0 3.5rem;
@@ -31,23 +36,23 @@
         }
 
         .title {
-          $title: 5;
-          $break: ($title * 16px) / .22;
-
           font-size: $title * 1rem;
           margin: 0;
 
           @media (max-width: $break) {
-            font-size: 22vw;
+            font-size: $title-vw * 1vw;
+          }
+
+          @media (max-width: $desktop) {
             margin: 0 0 1rem;
           }
         }
 
         .subtitle {
-          font-size: 1.5rem;
+          font-size: $title * .3 * 1rem;
 
-          @media (max-width: 363px) {
-            font-size: 8vw;
+          @media (max-width: $break) {
+            font-size: $title-vw * .3 * 1vw;
           }
         }
       }
@@ -55,7 +60,11 @@
       .media-right {
         img {
           cursor: pointer;
-          height: 13rem;
+          height: $title * 2.6 * 1rem;
+
+          @media (max-width: $break) {
+            height: $title-vw * 2.6 * 1vw;
+          }
         }
       }
     }
