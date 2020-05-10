@@ -14,24 +14,39 @@
           <blockquote>
             <p>
               Project Blurple is simple at its core, we're here to celebrate Discord's birthday each year with the
-              community. We do this by encouraging folks to participate in our Discord server, chatting, entering
-              giveaways and joining in with any events we run there.
+              community. We do this by encouraging folks to participate in  <a
+                href="https://projectblurple.com/discord"
+                target="_blank"
+                rel="noopener"
+              >our Discord server</a>, chatting, entering giveaways and joining in with any events we run there.
             </p>
           </blockquote>
 
           <p>
             The other big thing we do is asking those celebrating with us to make their avatars and server icons Blurple
-            colored. Blurple is Discord's main brand color and by having everyone change their images to use a color
-            scheme based on this, we can show our appreciation for Discord outside the Project Blurple server.
+            colored. Blurple is <a
+              href="https://discord.com/branding"
+              target="_blank"
+              rel="noopener"
+              data-print="discord.com/branding"
+            >Discord's main brand color</a> and by having everyone change their images to use a color scheme based on
+            this, we can show our appreciation for Discord outside the <a
+              href="https://projectblurple.com/discord"
+              target="_blank"
+              rel="noopener"
+            >Project Blurple server</a>.
           </p>
 
           <p>
             Discord's birthday is on May 13th, so Project Blurple normally launches roughly a week before to get the
             community hyped and ready to celebrate, with the main partying happening on May 13th. Things wrap up quickly
             after that with the final few giveaways being done in the following couple of days.
-            <br>
             <small>
-              (The Project Blurple server is open all year though if you want to have some Blurple fun out of season).
+              (The <a
+                href="https://projectblurple.com/discord"
+                target="_blank"
+                rel="noopener"
+              >Project Blurple server</a> is open all year though if you want to have some Blurple fun out of season).
             </small>
           </p>
 
@@ -44,7 +59,7 @@
 
           <blockquote>
             <p>
-              We're back for 2020 and we're already on track to have the biggest event so far, with over 4.8k Blurple
+              We're back for 2020 and we're already on track to have the biggest event so far, with over 5.6k Blurple
               users marking themselves as participating with a Blurple themed avatar in the first couple of days!
             </p>
           </blockquote>
