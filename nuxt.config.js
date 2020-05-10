@@ -49,7 +49,13 @@ export default {
   css: [
     '~/assets/scss/style.scss',
   ],
+  buildModules: [
+    '@nuxtjs/google-analytics',
+  ],
+  googleAnalytics: {
+    id: 'UA-136234667-1',
+  },
   generate: {
-    fallback: true,
+    fallback: false,
   },
 };
