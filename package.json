@@ -1,8 +1,9 @@
 {
-  "name": "projectblurple",
+  "name": "blurple-web",
   "version": "1.0.0",
   "description": "Stats and information about Project Blurple",
-  "author": "MattIPv4",
+  "author": "Matt (IPv4) Cowley",
+  "license": "GPL-3.0-or-later",
   "private": true,
   "engines": {
     "node": "12.16.2"
