@@ -5,20 +5,31 @@
     flex-direction: column;
 
     &:nth-child(odd) {
-      img {
+      a {
         &:first-child {
           margin: 128px 0 0;
         }
       }
     }
 
-    img {
-      background: $guild;
-      border-radius: 50%;
-      box-shadow: -.2em .2em $guild;
-      height: 128px;
+    a {
       margin: 64px 0 0;
-      width: 128px;
+
+      &:hover,
+      &:focus, {
+        img {
+          border-radius: 30%;
+        }
+      }
+
+      img {
+        background: $guild;
+        border-radius: 50%;
+        box-shadow: -.2em .2em $guild;
+        height: 128px;
+        transition: border-radius .2s ease-in-out;
+        width: 128px;
+      }
     }
   }
 }
