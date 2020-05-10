@@ -5,7 +5,9 @@
         <article class="media">
           <div class="media-content">
             <h1 class="title">
-              Project Blurple
+              <a href="https://projectblurple.com/discord" target="_blank" rel="noopener">
+                Project Blurple
+              </a>
             </h1>
             <h2 class="subtitle">
               Celebrating Discord's 5th Birthday!

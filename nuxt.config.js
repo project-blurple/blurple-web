@@ -1,4 +1,4 @@
-const base = 'https://blurple.mattcowley.co.uk';
+const base = 'https://projectblurple.com';
 const name = 'Project Blurple';
 const desc = 'Celebrating Discord\'s 5th Birthday!';
 

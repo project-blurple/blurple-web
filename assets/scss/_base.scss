@@ -17,6 +17,7 @@ body {
 
 a {
   color: $blurple;
+  transition: color .2s ease-in-out;
 
   @media print {
     &[data-print] {

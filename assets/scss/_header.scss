@@ -46,6 +46,15 @@
           @media (max-width: $desktop) {
             margin: 0 0 1rem;
           }
+
+          a {
+            color: $black;
+
+            &:hover,
+            &:focus {
+              color: $dark-blurple;
+            }
+          }
         }
 
         .subtitle {
