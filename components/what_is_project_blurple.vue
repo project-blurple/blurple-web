@@ -59,7 +59,7 @@
 
           <blockquote>
             <p>
-              We're back for 2020 and we're already on track to have the biggest event so far, with over 5.6k Blurple
+              We're back for 2020 and we're already on track to have the biggest event so far, with over 6.9k Blurple
               users marking themselves as participating with a Blurple themed avatar in the first couple of days!
             </p>
           </blockquote>

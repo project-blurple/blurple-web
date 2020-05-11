@@ -12,16 +12,16 @@
           </p>
 
           <p>
-            Already, over <code>46 thousand members</code> have joined the <a
+            Already, over <code>51 thousand members</code> have joined the <a
               href="https://projectblurple.com/discord"
               target="_blank"
               rel="noopener"
-            >official Project Blurple server</a>, with an amazing <code>5.6k Blurple users</code> who have
+            >official Project Blurple server</a>, with an amazing <code>6.9k Blurple users</code> who have
             already updated their Discord avatar to use Blurple colors as part of the celebration.
           </p>
 
           <p>
-            Alongside the Blurple users, <code>660+ Discord servers</code> have already listed themselves in the <a
+            Alongside the Blurple users, <code>730+ Discord servers</code> have already listed themselves in the <a
               href="https://projectblurple.com/discord"
               target="_blank"
               rel="noopener"
@@ -33,7 +33,7 @@
               href="https://projectblurple.com/discord"
               target="_blank"
               rel="noopener"
-            >official Project Blurple server</a> have posted a massive <code>281k+ messages</code> so far, chatting with
+            >official Project Blurple server</a> have posted a massive <code>365k+ messages</code> so far, chatting with
             each other and sharing their love for all things Discord &amp; Blurple.
           </p>
         </div>
