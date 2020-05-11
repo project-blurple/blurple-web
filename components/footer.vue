@@ -54,6 +54,17 @@
             rel="noopener"
             data-print="mattcowley.co.uk"
           >v4</a>.
+          <br>
+          This website is <a
+            href="https://github.com/project-blurple/blurple-web"
+            target="_blank"
+            rel="noopener"
+            data-print="github.com/project-blurple/blurple-web"
+          >open-source</a> under the <a
+            href="https://github.com/project-blurple/blurple-web/blob/master/LICENSE"
+            target="_blank"
+            rel="noopener"
+          >GPLv3 licence</a>.
         </small>
       </p>
     </div>
