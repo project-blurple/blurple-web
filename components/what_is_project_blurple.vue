@@ -59,8 +59,8 @@
 
           <blockquote>
             <p>
-              We're back for 2020 and we're already on track to have the biggest event so far, with over 6.9k Blurple
-              users marking themselves as participating with a Blurple themed avatar in the first couple of days!
+              We're back for 2020 and we're already on track to have the biggest event so far, with over {{ blurple }}k
+              Blurple users marking themselves as participating with a Blurple themed avatar in the first few days!
             </p>
           </blockquote>
         </div>
@@ -73,12 +73,18 @@
 </template>
 
 <script>
+  import { blurple } from '../build/data.json';
   import ServerImages3 from './images/servers3';
 
   export default {
     name: 'WhatIsProjectBlurple',
     components: {
       ServerImages3,
+    },
+    data () {
+      return {
+        blurple: (Math.round(blurple / 100) / 10).toLocaleString(), // 1234 => 1.2
+      };
     },
   };
 </script>

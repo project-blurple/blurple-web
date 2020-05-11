@@ -12,16 +12,17 @@
           </p>
 
           <p>
-            Already, over <code>51 thousand members</code> have joined the <a
+            Already, over <code>{{ members }} thousand members</code> have joined the <a
               href="https://projectblurple.com/discord"
               target="_blank"
               rel="noopener"
-            >official Project Blurple server</a>, with an amazing <code>6.9k Blurple users</code> who have
+            >official Project Blurple server</a>, with an amazing <code>{{ blurple }}k Blurple users</code> who have
             already updated their Discord avatar to use Blurple colors as part of the celebration.
           </p>
 
           <p>
-            Alongside the Blurple users, <code>730+ Discord servers</code> have already listed themselves in the <a
+            Alongside the Blurple users, <code>{{ servers }}+ Discord servers</code> have already listed themselves in
+            the <a
               href="https://projectblurple.com/discord"
               target="_blank"
               rel="noopener"
@@ -33,8 +34,8 @@
               href="https://projectblurple.com/discord"
               target="_blank"
               rel="noopener"
-            >official Project Blurple server</a> have posted a massive <code>365k+ messages</code> so far, chatting with
-            each other and sharing their love for all things Discord &amp; Blurple.
+            >official Project Blurple server</a> have posted a massive <code>{{ messages }}k+ messages</code> so far,
+            chatting with each other and sharing their love for all things Discord &amp; Blurple.
           </p>
         </div>
         <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
@@ -46,12 +47,21 @@
 </template>
 
 <script>
+  import data from '../build/data.json';
   import ServerImages2 from './images/servers2';
 
   export default {
     name: 'WhosParticipating',
     components: {
       ServerImages2,
+    },
+    data () {
+      return {
+        members: Math.round(data.members / 1000).toLocaleString(), // 12345 => 12
+        blurple: (Math.round(data.blurple / 100) / 10).toLocaleString(), // 1234 => 1.2
+        servers: (Math.floor(data.servers / 10) * 10).toLocaleString(), // 123 => 120
+        messages: Math.round(data.messages / 1000).toLocaleString(), // 12345 => 12
+      };
     },
   };
 </script>

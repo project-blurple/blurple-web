@@ -1,3 +1,4 @@
+import fetchStats from './build/fetch_stats';
 const base = 'https://projectblurple.com';
 const name = 'Project Blurple';
 const desc = 'Celebrating Discord\'s 5th Birthday!';
@@ -57,5 +58,12 @@ export default {
   },
   generate: {
     fallback: false,
+  },
+  hooks: {
+    build: {
+      async before () {
+        await fetchStats();
+      },
+    },
   },
 };
