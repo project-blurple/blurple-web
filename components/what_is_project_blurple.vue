@@ -60,7 +60,7 @@
           <blockquote>
             <p>
               We're back for 2020 and we're already on track to have the biggest event so far, with over {{ blurple }}k
-              Blurple users marking themselves as participating with a Blurple themed avatar in the first few days!
+              Blurple users marking themselves as participating with a Blurple themed avatar so far this year!
             </p>
           </blockquote>
         </div>
