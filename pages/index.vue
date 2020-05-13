@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Banner />
     <Header />
     <GetInvolved />
     <Colors />
@@ -10,6 +11,7 @@
 </template>
 
 <script>
+  import Banner from '../components/banner';
   import Header from '../components/header';
   import GetInvolved from '../components/get_involved';
   import Colors from '../components/colors';
@@ -19,6 +21,7 @@
 
   export default {
     components: {
+      Banner,
       Header,
       GetInvolved,
       Colors,
