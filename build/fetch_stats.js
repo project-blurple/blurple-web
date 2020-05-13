@@ -4,9 +4,9 @@ import path from 'path';
 export default async () => {
   // TODO: Replace this with an API call?
   await fs.promises.writeFile(path.join(__dirname, 'data.json'), JSON.stringify({
-    members: 55310,
-    blurple: 8196,
-    servers: 809,
-    messages: 478093,
+    members: 56894,
+    blurple: 8659,
+    servers: 824,
+    messages: 530949,
   }));
 };
