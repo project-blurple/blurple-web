@@ -7,6 +7,9 @@
       <a href="https://discord.gg/wjfGmG3" target="_blank" rel="noopener">
         <img src="../../assets/img/servers/discord-nitro.png" title="Discord Nitro" alt="">
       </a>
+      <a href="https://discord.gg/StarWars" target="_blank" rel="noopener">
+        <img src="../../assets/img/servers/r-starwars.png" title="r/StarWars" alt="">
+      </a>
     </div>
     <div class="column is-half">
       <a href="https://discord.gg/borderlands" target="_blank" rel="noopener">
@@ -14,6 +17,9 @@
       </a>
       <a href="https://discord.gg/google" target="_blank" rel="noopener">
         <img src="../../assets/img/servers/r-google.png" title="r/Google" alt="">
+      </a>
+      <a href="https://discord.gg/iphone" target="_blank" rel="noopener">
+        <img src="../../assets/img/servers/r-iphone.png" title="r/iPhone" alt="">
       </a>
     </div>
   </div>

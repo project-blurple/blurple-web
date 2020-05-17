@@ -1,8 +1,8 @@
 <template>
   <div class="columns images">
     <div class="column is-half">
-      <a href="https://discord.gg/StarWars" target="_blank" rel="noopener">
-        <img src="../../assets/img/servers/r-starwars.png" title="r/StarWars" alt="">
+      <a href="https://discord.gg/jb" target="_blank" rel="noopener">
+        <img src="../../assets/img/servers/r-jailbreak.png" title="r/Jailbreak" alt="">
       </a>
       <a href="https://discord.gg/5yEcTcP" target="_blank" rel="noopener">
         <img src="../../assets/img/servers/the-witcher.png" title="The Witcher" alt="">
@@ -15,8 +15,8 @@
       </a>
     </div>
     <div class="column is-half">
-      <a href="https://discord.gg/iphone" target="_blank" rel="noopener">
-        <img src="../../assets/img/servers/r-iphone.png" title="r/iPhone" alt="">
+      <a href="https://discord.gg/sfe" target="_blank" rel="noopener">
+        <img src="../../assets/img/servers/something-for-everyone.png" title="Something for Everyone" alt="">
       </a>
       <a href="https://discord.gg/scpsl" target="_blank" rel="noopener">
         <img src="../../assets/img/servers/scp-secret-laboratory.png" title="SCP: Secret Laboratory" alt="">
