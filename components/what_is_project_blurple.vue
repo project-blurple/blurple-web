@@ -59,8 +59,8 @@
 
           <blockquote>
             <p>
-              We're back for 2020 and we're already on track to have the biggest event so far, with over {{ blurple }}k
-              Blurple users marking themselves as participating with a Blurple themed avatar so far this year!
+              We're back for 2020 and we had yet another amazing event to celebrate Discord's birthday, with over
+              {{ blurple }}k Blurple users marking themselves as participating with a Blurple themed avatar this year!
             </p>
           </blockquote>
         </div>
