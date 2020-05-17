@@ -1,7 +1,7 @@
 import fetchStats from './build/fetch_stats';
 const base = 'https://projectblurple.com';
 const name = 'Project Blurple';
-const desc = 'Celebrating Discord\'s 5th Birthday!';
+const desc = 'Celebrating Discord\'s Birthday!';
 
 export default {
   mode: 'universal',

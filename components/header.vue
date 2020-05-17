@@ -10,7 +10,7 @@
               </a>
             </h1>
             <h2 class="subtitle">
-              Celebrating Discord's 5th Birthday!
+              Celebrating Discord's {{ birthday.toLocaleString() }}{{ ordinal(birthday) }} Birthday!
             </h2>
           </div>
           <div class="media-right">
@@ -31,12 +31,23 @@
 </template>
 
 <script>
+  import ordinal from 'ordinal/indicator';
+
   export default {
     name: 'Header',
     data () {
       return {
         icon: 1,
+        birthday: 1,
       };
+    },
+    mounted () {
+      const now = new Date();
+      const sixMonths = new Date(`${now.getFullYear()}-11-13T00:00:00`);
+      this.$data.birthday = now.getFullYear() - 2015 + (now < sixMonths ? 0 : 1);
+    },
+    methods: {
+      ordinal,
     },
   };
 </script>

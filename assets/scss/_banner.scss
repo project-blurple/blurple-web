@@ -4,4 +4,12 @@
   margin: 0 0 3rem;
   padding: 1.5rem 1.5rem 1rem;
   text-align: center;
+
+  h1 {
+    small {
+      display: block;
+      font-size: .65em;
+      line-height: 1;
+    }
+  }
 }
