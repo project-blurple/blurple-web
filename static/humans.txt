@@ -1,0 +1,125 @@
+/* TEAM */
+  Developer: Matt Cowley
+  Site: mattcowley.co.uk
+  Twitter: @MattIPv4
+  Location: London, UK
+
+/* THANKS */
+  Project Lead: Rocked03#3304
+
+  Head of Staff; Interim Community Manager: Giga#0001
+
+  Head of Internal Affairs; Minecraft Lead: Promise#0001
+
+  Giveaways Manager: CubityFirst#2875
+
+  Partnership Manager: Spud#8967
+
+  Development Manager: Zeboto#0001
+
+  Senior Moderator: Avi#4653
+
+  Senior Moderator: Chara#6102
+
+  Senior Moderator: Nooooah#5485
+
+  Senior Moderator: Pikachu#0394
+
+  Senior Moderator: TheCodingGuy#6697
+
+  Senior Moderator: Yuuka#6343
+
+  Moderator: Ace#1406
+
+  Moderator: Atlanticgirl#9739
+
+  Moderator: Br0H0gg#0001
+
+  Moderator: Breaduck#0420
+
+  Moderator: chairius#2099
+
+  Moderator: CmdData#0101
+
+  Moderator: Dawn#1945
+
+  Moderator: Emilia#0001
+
+  Moderator: fujhofn#0007
+
+  Moderator: K20#0001
+
+  Moderator: LGA Code#0001
+
+  Moderator: Loki#6464
+
+  Moderator: mesub#0556
+
+  Moderator: Osuletz#9514
+
+  Moderator: Pearl8520#8060
+
+  Moderator: Puddle#0001
+
+  Moderator: Rhetsin#1913
+
+  Moderator: Shane#7421
+
+  Moderator: Star#5837
+
+  Moderator: Stijn#0001
+
+  Moderator: username#6666
+
+  Helper: DeeDeewsky#5914
+
+  Helper: erykol#6952
+
+  Helper: Franie21#0420
+
+  Helper: GlitchyPSIX#5904
+
+  Helper: hskthca#2664
+
+  Helper: jere#0010
+
+  Helper: Lacuna#0002
+
+  Helper: Maho!#6123
+
+  Helper: Proximity#1337
+
+  Helper: rush#1459
+
+  Helper: shard#9042
+
+  Helper: ShyGuy2610#7474
+
+  Helper: Solly#0001
+
+  Helper: Spud#0001
+
+  Helper: tech_dude1#0001
+
+  Helper: UniQMG#0375
+
+  Helper: zabszk#5292
+
+  Developer (Blurplefied): JakeMakesStuff#0001
+
+  Developer (Blurplefied): SnowyLuma#3255
+
+  Developer (Blurplefied): Stijn#0001
+
+  Developer (projectblurple.com/paint): UniQMG#0375
+
+  Developer (projectblurple.com): v4#1503
+
+  Designer (Icons): GlitchyPSIX#5904
+
+  Designer (Snapchat Lens): Jmax#0001
+
+/* SITE */
+  Language: English
+  Components: Nuxt, Bulma, node-sass
+  Software: WebStorm, Sketch

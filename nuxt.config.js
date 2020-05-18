@@ -42,7 +42,12 @@ export default {
     link: [
       { rel: 'icon', type: 'image/png', href: `${base}/favicon.png` },
       { rel: 'shortcut-icon', type: 'image/png', href: `${base}/favicon.png` },
-      { rel: 'apple-touch-icon', type: 'image/png', href: `${base}/favicon.png` },
+      { rel: 'icon', type: 'image/png', sizes: '512x512', href: `${base}/favicon.png` },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: `${base}/favicon-32x32.png` },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${base}/favicon-16x16.png` },
+      { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: `${base}/apple-touch-icon.png` },
+      { rel: 'manifest', href: `${base}/site.webmanifest` },
+      { rel: 'author', href: `${base}/humans.txt` },
       { rel: 'canonical', href: base },
     ],
   },
