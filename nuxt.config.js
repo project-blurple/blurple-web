@@ -62,7 +62,7 @@ export default {
     id: 'UA-136234667-1',
   },
   generate: {
-    fallback: false,
+    fallback: true,
   },
   hooks: {
     build: {
