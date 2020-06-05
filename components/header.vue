@@ -5,7 +5,7 @@
         <article class="media">
           <div class="media-content">
             <h1 class="title">
-              <a href="https://projectblurple.com/discord" target="_blank" rel="noopener">
+              <a href="https://discord.gg/qEmKyCf" target="_blank" rel="noopener">
                 Project Blurple
               </a>
             </h1>

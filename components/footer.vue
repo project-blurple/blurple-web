@@ -10,10 +10,10 @@
           <p>
             The Project Blurple celebration is based in our official
             <code><a
-              href="https://projectblurple.com/discord"
+              href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
-              data-print="discord.gg/blurple"
+              data-print="discord.gg/qEmKyCf"
             >Project Blurple Discord server</a></code>, join this to get involved and chat with other Blurple users
             participating.
           </p>

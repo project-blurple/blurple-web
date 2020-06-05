@@ -15,7 +15,7 @@
             <p>
               Project Blurple is simple at its core, we're here to celebrate Discord's birthday each year with the
               community. We do this by encouraging folks to participate in  <a
-                href="https://projectblurple.com/discord"
+                href="https://discord.gg/qEmKyCf"
                 target="_blank"
                 rel="noopener"
               >our Discord server</a>, chatting, entering giveaways and joining in with any events we run there.
@@ -31,7 +31,7 @@
               data-print="discord.com/branding"
             >Discord's main brand color</a> and by having everyone change their images to use a color scheme based on
             this, we can show our appreciation for Discord outside the <a
-              href="https://projectblurple.com/discord"
+              href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
             >Project Blurple server</a>.
@@ -43,7 +43,7 @@
             after that with the final few giveaways being done in the following couple of days.
             <small>
               (The <a
-                href="https://projectblurple.com/discord"
+                href="https://discord.gg/qEmKyCf"
                 target="_blank"
                 rel="noopener"
               >Project Blurple server</a> is open all year though if you want to have some Blurple fun out of season).

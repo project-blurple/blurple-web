@@ -2,7 +2,7 @@
   <section v-if="birthday || seeYouNextYear || seeYouInMay" class="section banner">
     <div class="container">
       <h1 v-if="birthday" class="title">
-        Happy Birthday Discord! 🎉🎂
+        Happy Birthday, Discord! 🎉🎂
       </h1>
       <h1 v-if="seeYouNextYear" class="title">
         <small>See you next year in May for Discord's birthday!</small>

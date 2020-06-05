@@ -10,10 +10,10 @@
             <li>
               <p>
                 Join the official <code><a
-                  href="https://projectblurple.com/discord"
+                  href="https://discord.gg/qEmKyCf"
                   target="_blank"
                   rel="noopener"
-                  data-print="discord.gg/blurple"
+                  data-print="discord.gg/qEmKyCf"
                 >Project Blurple Discord server</a></code> to start celebrating with us!
               </p>
             </li>

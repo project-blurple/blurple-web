@@ -14,7 +14,7 @@
           <p>
             For the celebration of Discord's 5th birthday, over <code>{{ members }} thousand members</code> have
             joined the <a
-              href="https://projectblurple.com/discord"
+              href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
             >official Project Blurple server</a>, with an amazing <code>{{ blurple }}k Blurple users</code> who updated
@@ -24,7 +24,7 @@
           <p>
             Alongside the Blurple users, <code>{{ servers }}+ Discord servers</code> listed themselves as participating
             with their custom Blurple-themed icons in the <a
-              href="https://projectblurple.com/discord"
+              href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
             >Project Blurple server</a> to celebrate Discord's 5th birthday.
@@ -32,7 +32,7 @@
 
           <p>
             During the 2020 celebration that launched on May 7th and ended on May 14th, members of the <a
-              href="https://projectblurple.com/discord"
+              href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
             >official Project Blurple server</a> posted a massive <code>{{ messages }}k+ messages</code>,
@@ -41,7 +41,7 @@
 
           <p>
             This year {{ donators }} awesome members of the <a
-              href="https://projectblurple.com/discord"
+              href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
             >Project Blurple Discord server</a> went above and beyond, donating assorted items and gift codes for the
@@ -50,7 +50,7 @@
 
           <p>
             Through the <a
-              href="https://projectblurple.com/discord"
+              href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
             >Project Blurple Discord</a> and other partner servers, <code>over {{ artists }} artists</code> contributed
