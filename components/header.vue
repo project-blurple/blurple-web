@@ -1,7 +1,10 @@
 <template>
   <section class="hero">
-    <div class="hero-body">
+    <div :class="`hero-body${countdown ? ' has-countdown' : ''}`">
       <div class="container">
+        <div v-if="countdown" class="countdown">
+          {{ countdownText }}
+        </div>
         <article class="media">
           <div class="media-content">
             <h1 class="title">
@@ -39,15 +42,43 @@
       return {
         icon: 1,
         birthday: 1,
+        countdown: false,
+        countdownText: '',
       };
     },
     mounted () {
       const now = new Date();
+
+      // Decide which birthday year to show
       const sixMonths = new Date(`${now.getFullYear()}-11-13T00:00:00`);
       this.$data.birthday = now.getFullYear() - 2015 + (now < sixMonths ? 0 : 1);
+
+      // Decide if we should show a countdown
+      const birthday = new Date(`${now.getFullYear()}-05-13T00:00:00`);
+      this.$data.countdown = now < birthday;
+      if (this.$data.countdown) {
+        setInterval(this.updateCountdown, 250);
+      }
     },
     methods: {
       ordinal,
+      pluralize (number, string) {
+        return `${number.toLocaleString()} ${string}${number === 1 ? '' : 's'}`;
+      },
+      updateCountdown () {
+        const now = new Date();
+        const timeLeft = new Date(`${now.getFullYear()}-05-13T00:00:00`) - now;
+        const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+        this.$data.countdownText = [
+          days ? this.pluralize(days, 'day') : '',
+          days || hours ? this.pluralize(hours, 'hour') : '',
+          days || hours || minutes ? this.pluralize(minutes, 'minute') : '',
+          days || hours || minutes || seconds ? this.pluralize(seconds, 'second') : '',
+        ].filter(x => x.length).join(', ');
+      },
     },
   };
 </script>
