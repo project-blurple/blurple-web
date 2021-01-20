@@ -3,7 +3,7 @@
     <div :class="`hero-body${countdown ? ' has-countdown' : ''}`">
       <div class="container">
         <div v-if="countdown" class="countdown">
-          {{ countdownText }}
+          <span>{{ countdownText }}</span>
         </div>
         <article class="media">
           <div class="media-content">
