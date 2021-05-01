@@ -9,7 +9,7 @@
           <ol>
             <li>
               <p>
-                Join the official <code><a
+                Join the <code><a
                   href="https://discord.gg/qEmKyCf"
                   target="_blank"
                   rel="noopener"
