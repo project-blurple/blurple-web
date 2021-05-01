@@ -17,7 +17,7 @@
               href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
-            >official Project Blurple server</a>, with an amazing <code>{{ blurple }}k Blurple users</code> who updated
+            >Project Blurple server</a>, with an amazing <code>{{ blurple }}k Blurple users</code> who updated
             their Discord avatar to use Blurple colors as part of the celebration.
           </p>
 
@@ -35,7 +35,7 @@
               href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
-            >official Project Blurple server</a> posted a massive <code>{{ messages }}k+ messages</code>,
+            >Project Blurple server</a> posted a massive <code>{{ messages }}k+ messages</code>,
             chatting with each other and sharing their love for all things Discord &amp; Blurple.
           </p>
 
@@ -54,8 +54,7 @@
               target="_blank"
               rel="noopener"
             >Project Blurple Discord</a> and other partner servers, <code>over {{ artists }} artists</code> contributed
-            to our digital pixel-art canvas and <code>{{ painters }}+ members</code> collected paint to enter official
-            Project Blurple giveaways.
+            to our digital pixel-art canvas and <code>{{ painters }}+ members</code> collected paint to enter Project Blurple giveaways.
           </p>
         </div>
         <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
