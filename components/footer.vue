@@ -8,7 +8,7 @@
       <ol>
         <li>
           <p>
-            The Project Blurple celebration is based in our official
+            The Project Blurple celebration is based in our
             <code><a
               href="https://discord.gg/qEmKyCf"
               target="_blank"
