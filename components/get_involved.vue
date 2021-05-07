@@ -39,9 +39,9 @@
 
             <li>
               <p>
-                Get yourself the Blurple roles; type <code>=check</code> in the Blurplefier channels to get a role for
+                Get yourself the Blurple roles; type <code>/check</code> in the Blurplefier channels to get a role for
                 your Blurple avatar.
-                <br>Follow the instructions in <code>#submission-info</code> for how to register your Blurple server.
+                <br>Follow the instructions in <code>#blurplefied-info</code> for how to register your Blurple server.
               </p>
             </li>
           </ol>
