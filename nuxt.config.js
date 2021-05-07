@@ -4,7 +4,7 @@ const name = 'Project Blurple';
 const desc = 'Celebrating Discord\'s Birthday!';
 
 export default {
-  mode: 'universal',
+  target: 'static',
   head: {
     htmlAttrs: { lang: 'en' },
     title: name,
@@ -69,6 +69,12 @@ export default {
       async before () {
         await fetchStats();
       },
+    },
+  },
+  // FIXME: https://github.com/nuxt/nuxt.js/issues/9224
+  build: {
+    babel: {
+      plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
     },
   },
 };
