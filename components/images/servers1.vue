@@ -4,8 +4,8 @@
       <a href="https://discord.gg/VqnKpAg" target="_blank" rel="noopener">
         <img src="../../assets/img/servers/ayana.png" title="Ayana" alt="">
       </a>
-      <a href="https://discord.gg/pFUhE5z" target="_blank" rel="noopener">
-        <img src="../../assets/img/servers/blob-emoji.png" title="Blob Emoji" alt="">
+      <a href="https://discord.gg/ncEPCTC" target="_blank" rel="noopener">
+        <img src="../../assets/img/servers/dyno.png" title="Dyno™" alt="">
       </a>
     </div>
     <div class="column is-half">

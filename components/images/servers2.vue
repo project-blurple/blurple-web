@@ -4,11 +4,11 @@
       <a href="https://discord.gg/marvel" target="_blank" rel="noopener">
         <img src="../../assets/img/servers/r-marvel.png" title="r/Marvel Discord" alt="">
       </a>
+      <a href="https://discord.gg/pFUhE5z" target="_blank" rel="noopener">
+        <img src="../../assets/img/servers/blob-emoji.png" title="Blob Emoji" alt="">
+      </a>
       <a href="https://discord.gg/tfQqub6" target="_blank" rel="noopener">
         <img src="../../assets/img/servers/discord-boats.png" title="Discord Boats" alt="">
-      </a>
-      <a href="https://discord.gg/farming" target="_blank" rel="noopener">
-        <img src="../../assets/img/servers/the-farming-community.png" title="The Farming Community" alt="">
       </a>
     </div>
     <div class="column is-half">
