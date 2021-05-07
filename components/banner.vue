@@ -1,5 +1,5 @@
 <template>
-  <section v-if="birthday || seeYouNextYear || seeYouInMay" class="section banner">
+  <section v-if="birthday || seeYouNextYear || seeYouInMay || birthdaySoon" class="section banner">
     <div class="container">
       <h1 v-if="birthday" class="title">
         Happy Birthday, Discord! 🎉🎂
@@ -9,6 +9,9 @@
       </h1>
       <h1 v-if="seeYouInMay" class="title">
         <small>Get ready to celebrate Discord's birthday starting on May 7th!</small>
+      </h1>
+      <h1 v-if="birthdaySoon" class="title">
+        <small>Get involved to celebrate Discord's birthday!</small>
       </h1>
     </div>
   </section>
@@ -23,6 +26,7 @@
         birthday: false,
         seeYouNextYear: false,
         seeYouInMay: false,
+        birthdaySoon: false,
       };
     },
     mounted () {
@@ -33,6 +37,7 @@
       this.$data.birthday = now >= first && now < last;
       this.$data.seeYouNextYear = now >= last;
       this.$data.seeYouInMay = now < first && now < start;
+      this.$data.birthdaySoon = now < first && now >= start;
     },
   };
 </script>
