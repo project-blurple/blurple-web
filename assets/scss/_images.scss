@@ -1,4 +1,15 @@
 .images {
+  &.is-light {
+    .column {
+      a {
+        img {
+          background: $light-guild;
+          box-shadow: -.2em .2em $light-guild;
+        }
+      }
+    }
+  }
+
   .column {
     align-items: center;
     display: flex;
