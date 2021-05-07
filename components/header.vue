@@ -17,8 +17,8 @@
             </h2>
           </div>
           <div class="media-right">
-            <img v-if="icon === 1" src="../assets/img/brush.svg" @click="icon = 2">
-            <img v-if="icon === 2" src="../assets/img/roller.svg" @click="icon = 1">
+            <img v-if="icon === 1" src="../assets/img/brush.svg" @click="icon = 2" alt="Project Blurple Paint Brush">
+            <img v-if="icon === 2" src="../assets/img/roller.svg" @click="icon = 1" alt="Project Blurple Paint Roller">
           </div>
         </article>
       </div>
