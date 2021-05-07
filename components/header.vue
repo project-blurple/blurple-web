@@ -43,6 +43,7 @@
         icon: 1,
         birthday: 1,
         countdown: false,
+        countdownDate: null,
         countdownText: '',
       };
     },
@@ -50,13 +51,24 @@
       const now = new Date();
 
       // Decide which birthday year to show
-      const sixMonths = new Date(`${now.getFullYear()}-11-13T00:00:00`);
+      const sixMonths = new Date(`${now.getFullYear()}-11-13T00:00:00+0000`);
       this.$data.birthday = now.getFullYear() - 2015 + (now < sixMonths ? 0 : 1);
 
-      // Decide if we should show a countdown
-      const birthday = new Date(`${now.getFullYear()}-05-13T00:00:00`);
-      this.$data.countdown = now < birthday;
-      if (this.$data.countdown) {
+      // Decide if we should countdown to launch
+      const launch = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
+      if (now < launch) {
+        this.$data.countdownDate = launch;
+      }
+
+      // Decide if we should countdown to birthday
+      const birthday = new Date(`${now.getFullYear()}-05-13T00:00:00+1400`);
+      if (now > launch && now < birthday) {
+        this.$data.countdownDate = birthday;
+      }
+
+      // Do we need to start the countdown
+      if (this.$data.countdownDate !== null) {
+        this.$data.countdown = true;
         setInterval(this.updateCountdown, 250);
       }
     },
@@ -66,8 +78,7 @@
         return `${number.toLocaleString()} ${string}${number === 1 ? '' : 's'}`;
       },
       updateCountdown () {
-        const now = new Date();
-        const timeLeft = new Date(`${now.getFullYear()}-05-13T00:00:00`) - now;
+        const timeLeft = this.$data.countdownDate - new Date();
         const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
         const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
