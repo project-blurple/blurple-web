@@ -54,7 +54,7 @@
             data-print="discord.com"
           >Discord Inc</a>.
           <br>
-          &copy; 2020 Project Blurple. All rights reserved.
+          &copy; {{ year }} Project Blurple. All rights reserved.
           Created by <a
             href="https://mattcowley.co.uk"
             target="_blank"
@@ -84,5 +84,10 @@
   export default {
     name: 'Footer',
     components: { ServerImages4 },
+    data () {
+      return {
+        year: new Date().getFullYear(),
+      };
+    },
   };
 </script>
