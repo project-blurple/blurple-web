@@ -57,10 +57,17 @@
             just over 400 servers involved.
           </p>
 
+          <p>
+            Project Blurple returned once again in 2020 to continue the annual tradition, celebrating Discord's 5th
+            birthday with over 60 thousand members in the official server and nearly 9.5k awesome users rocking a
+            Blurplefied profile picture. The 2020 birthday celebrations also saw over 890 Discord servers getting
+            involved, using Blurplefied versions of the icons and spreading the word.
+          </p>
+
           <blockquote>
             <p>
-              We're back for 2020 and we had yet another amazing event to celebrate Discord's birthday, with over
-              {{ blurple }}k Blurple users marking themselves as participating with a Blurple themed avatar this year!
+              We're back for {{ year }} and we had yet another amazing event to celebrate Discord's birthday, with over
+              {{ blurple }} Blurple users marking themselves as participating with a Blurple themed avatar this year!
             </p>
           </blockquote>
         </div>
@@ -76,6 +83,11 @@
   import { blurple } from '../build/data.json';
   import ServerImages3 from './images/servers3';
 
+  // Decide which birthday year to show
+  const now = new Date();
+  const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
+  const year = now.getFullYear() - (now < start ? 1 : 0);
+
   export default {
     name: 'WhatIsProjectBlurple',
     components: {
@@ -83,7 +95,10 @@
     },
     data () {
       return {
-        blurple: (Math.round(blurple / 100) / 10).toLocaleString(), // 1234 => 1.2
+        year,
+        blurple: blurple > 2000
+          ? (Math.round(blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
+          : (Math.floor(blurple / 10) * 10).toLocaleString(), // 123 => 120
       };
     },
   };

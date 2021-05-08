@@ -12,12 +12,12 @@
           </p>
 
           <p>
-            For the celebration of Discord's 5th birthday, over <code>{{ members }} thousand members</code> have
-            joined the <a
+            For the celebration of Discord's {{ birthday }}{{ ordinal(birthday) }} birthday, over <code>{{ members }}
+              thousand members</code> {{ active ? 'have already joined' : 'joined' }} the <a
               href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
-            >official Project Blurple server</a>, with an amazing <code>{{ blurple }}k Blurple users</code> who updated
+            >official Project Blurple server</a>, with an amazing <code>{{ blurple }} Blurple users</code> who updated
             their Discord avatar to use Blurple colors as part of the celebration.
           </p>
 
@@ -27,25 +27,34 @@
               href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
-            >Project Blurple server</a> to celebrate Discord's 5th birthday.
+            >Project Blurple server</a> to celebrate Discord's {{ birthday }}{{ ordinal(birthday) }} birthday.
           </p>
 
           <p>
-            During the 2020 celebration that launched on May 7th and ended on May 14th, members of the <a
+            <template v-if="active">
+              So far, for the {{ year }} celebration that launched on May 7th,
+            </template>
+            <template v-else>
+              During the {{ year }} celebration that launched on May 7th and ended on May 14th,
+            </template>
+            members of the <a
               href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
-            >official Project Blurple server</a> posted a massive <code>{{ messages }}k+ messages</code>,
-            chatting with each other and sharing their love for all things Discord &amp; Blurple.
+            >official Project Blurple server</a> {{ active ? 'have already posted' : 'posted' }} a massive
+            <code>{{ messages }}k+ messages</code>, chatting with each other and sharing their love for all things
+            Discord &amp; Blurple.
           </p>
 
           <p>
-            This year {{ donators }} awesome members of the <a
+            This year, {{ donators }} awesome members of the <a
               href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
-            >Project Blurple Discord server</a> went above and beyond, donating assorted items and gift codes for the
-            massive collection of giveaways that were run.
+            >Project Blurple Discord server</a>
+            {{ active ? 'have gone above and beyond so far' : 'went above and beyond' }}, donating assorted items, games
+            and gift codes for the massive collection of giveaways that {{ active ? 'are being run' : 'were run' }}
+            throughout the celebration.
           </p>
 
           <p>
@@ -53,8 +62,9 @@
               href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
-            >Project Blurple Discord</a> and other partner servers, <code>over {{ artists }} artists</code> contributed
-            to our digital pixel-art canvas and <code>{{ painters }}+ members</code> collected paint to enter official
+            >Project Blurple Discord</a> and other partner servers, <code>over {{ artists }} artists</code>
+            {{ active ? 'have already contributed' : 'contributed' }} to our digital pixel-art canvas and
+            <code>{{ painters }}+ members</code> {{ active ? 'have collected' : 'collected' }} paint to enter official
             Project Blurple giveaways.
           </p>
         </div>
@@ -67,8 +77,17 @@
 </template>
 
 <script>
+  import ordinal from 'ordinal/indicator';
   import data from '../build/data.json';
   import ServerImages2 from './images/servers2';
+
+  // Decide which birthday year to show
+  const now = new Date();
+  const end = new Date(`${now.getFullYear()}-05-14T00:00:00-1200`);
+  const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
+  const active = now >= start && now < end;
+  const birthday = now.getFullYear() - 2015 - (now < start ? 1 : 0);
+  const year = now.getFullYear() - (now < start ? 1 : 0);
 
   export default {
     name: 'WhosParticipating',
@@ -77,14 +96,22 @@
     },
     data () {
       return {
+        active,
+        birthday,
+        year,
         members: Math.round(data.members / 1000).toLocaleString(), // 12345 => 12
-        blurple: (Math.round(data.blurple / 100) / 10).toLocaleString(), // 1234 => 1.2
+        blurple: data.blurple > 2000
+          ? (Math.round(data.blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
+          : (Math.floor(data.blurple / 10) * 10).toLocaleString() + '+', // 123 => 120
         servers: (Math.floor(data.servers / 10) * 10).toLocaleString(), // 123 => 120
         messages: Math.round(data.messages / 1000).toLocaleString(), // 12345 => 12
         donators: data.donators.toLocaleString(),
         artists: (Math.floor(data.artists / 10) * 10).toLocaleString(), // 123 => 120
         painters: (Math.floor(data.painters / 10) * 10).toLocaleString(), // 123 => 120
       };
+    },
+    methods: {
+      ordinal,
     },
   };
 </script>
