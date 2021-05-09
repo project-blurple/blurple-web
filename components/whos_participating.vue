@@ -67,6 +67,12 @@
             <code>{{ painters }}+ members</code> {{ active ? 'have collected' : 'collected' }} paint to enter official
             Project Blurple giveaways.
           </p>
+
+          <p>
+            Alongside the celebrations on Discord, more than <code>{{ adventurers }} adventurers</code>
+            {{ active ? 'have begun exploring' : 'explored' }} the Project Blurple Minecraft server, travelling across
+            the world, building new homes, designing exciting new skins and forging new friendships.
+          </p>
         </div>
         <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
           <ServerImages2 />
@@ -108,6 +114,7 @@
         donators: data.donators.toLocaleString(),
         artists: (Math.floor(data.artists / 10) * 10).toLocaleString(), // 123 => 120
         painters: (Math.floor(data.painters / 10) * 10).toLocaleString(), // 123 => 120
+        adventurers: (Math.floor(data.adventurers / 10) * 10).toLocaleString(), // 123 => 120
       };
     },
     methods: {

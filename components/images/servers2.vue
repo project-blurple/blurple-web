@@ -25,6 +25,14 @@
           alt="Among Us France"
         >
       </a>
+      <a href="https://discord.gg/kurzgesagt" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/kurzgesagt-in-a-nutshell.png"
+          loading="lazy"
+          title="Kurzgesagt - In A Nutshell"
+          alt="Kurzgesagt - In A Nutshell"
+        >
+      </a>
     </div>
     <div class="column is-half">
       <a href="https://discord.gg/google" target="_blank" rel="noopener">
@@ -49,6 +57,14 @@
           loading="lazy"
           title="Harmony"
           alt="Harmony"
+        >
+      </a>
+      <a href="https://discord.gg/miaplays" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/mia-plays.png"
+          loading="lazy"
+          title="Mia Plays"
+          alt="Mia Plays"
         >
       </a>
     </div>

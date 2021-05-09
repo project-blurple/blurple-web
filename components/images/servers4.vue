@@ -1,12 +1,12 @@
 <template>
   <div class="columns images is-light">
     <div class="column is-half">
-      <a href="https://discord.gg/cYakVbr" target="_blank" rel="noopener">
+      <a href="https://discord.gg/photography" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/car-crushers-official-discord.png"
+          src="../../assets/img/servers/photography-lounge.png"
           loading="lazy"
-          title="Car Crushers Official Discord"
-          alt="Car Crushers Official Discord"
+          title="Photography Lounge"
+          alt="Photography Lounge"
         >
       </a>
       <a href="https://discord.gg/yq2gFrnzjH" target="_blank" rel="noopener">

@@ -1,14 +1,6 @@
 <template>
   <div class="columns images">
     <div class="column is-half">
-      <a href="https://discord.gg/kurzgesagt" target="_blank" rel="noopener">
-        <img
-          src="../../assets/img/servers/kurzgesagt-in-a-nutshell.png"
-          loading="lazy"
-          title="Kurzgesagt - In A Nutshell"
-          alt="Kurzgesagt - In A Nutshell"
-        >
-      </a>
       <a href="https://discord.gg/swiss001" target="_blank" rel="noopener">
         <img
           src="../../assets/img/servers/swiss001.png"
@@ -41,6 +33,14 @@
           alt="The Farming Community"
         >
       </a>
+      <a href="https://discord.gg/imagine" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/pure-imagination.png"
+          loading="lazy"
+          title="Pure Imagination"
+          alt="Pure Imagination"
+        >
+      </a>
     </div>
     <div class="column is-half">
       <a href="https://discord.gg/jb" target="_blank" rel="noopener">
@@ -49,14 +49,6 @@
           loading="lazy"
           title="r/Jailbreak"
           alt="r/Jailbreak"
-        >
-      </a>
-      <a href="https://discord.gg/miaplays" target="_blank" rel="noopener">
-        <img
-          src="../../assets/img/servers/mia-plays.png"
-          loading="lazy"
-          title="Mia Plays"
-          alt="Mia Plays"
         >
       </a>
       <a href="https://discord.gg/scpsl" target="_blank" rel="noopener">
@@ -81,6 +73,14 @@
           loading="lazy"
           title="Krunker Bunker"
           alt="Krunker Bunker"
+        >
+      </a>
+      <a href="https://discord.gg/sound" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/sounds-world.png"
+          loading="lazy"
+          title="Sounds's World"
+          alt="Sounds's World"
         >
       </a>
     </div>
