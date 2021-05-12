@@ -36,24 +36,22 @@
 <script>
   import ordinal from 'ordinal/indicator';
 
-  // Decide which birthday year to show
-  const nowDate = new Date();
-  const sixMonths = new Date(`${nowDate.getFullYear()}-11-13T00:00:00+0000`);
-  const birthday = nowDate.getFullYear() - 2015 + (nowDate < sixMonths ? 0 : 1);
-
   export default {
     name: 'Header',
     data () {
       return {
         icon: 1,
-        birthday,
+        birthday: 1,
         countdownDate: null,
         countdown: false,
         countdownText: '',
       };
     },
-    mounted () {
+    created () {
+      // Decide which birthday year to show
       const now = new Date();
+      const sixMonths = new Date(`${now.getFullYear()}-11-13T00:00:00+0000`);
+      this.$data.birthday = now.getFullYear() - 2015 + (now < sixMonths ? 0 : 1);
 
       // Decide if we should countdown to launch
       const launchDate = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
@@ -66,7 +64,8 @@
       if (now > launchDate && now < birthdayDate) {
         this.$data.countdownDate = birthdayDate;
       }
-
+    },
+    mounted () {
       // Do we need to start the countdown
       if (this.$data.countdownDate !== null) {
         this.$data.countdown = true;

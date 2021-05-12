@@ -18,25 +18,26 @@
 </template>
 
 <script>
-  // Decide what message to show
-  const now = new Date();
-  const first = new Date(`${now.getFullYear()}-05-13T00:00:00+1400`);
-  const last = new Date(`${now.getFullYear()}-05-14T00:00:00-1200`);
-  const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
-  const birthday = now >= first && now < last;
-  const seeYouNextYear = now >= last;
-  const seeYouInMay = now < first && now < start;
-  const birthdaySoon = now < first && now >= start;
-
   export default {
     name: 'Banner',
     data () {
       return {
-        birthday,
-        seeYouNextYear,
-        seeYouInMay,
-        birthdaySoon,
+        birthday: false,
+        seeYouNextYear: false,
+        seeYouInMay: false,
+        birthdaySoon: false,
       };
+    },
+    created () {
+      // Decide what message to show
+      const now = new Date();
+      const first = new Date(`${now.getFullYear()}-05-13T00:00:00+1400`);
+      const last = new Date(`${now.getFullYear()}-05-14T00:00:00-1200`);
+      const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
+      this.$data.birthday = now >= first && now < last;
+      this.$data.seeYouNextYear = now >= last;
+      this.$data.seeYouInMay = now < first && now < start;
+      this.$data.birthdaySoon = now < first && now >= start;
     },
   };
 </script>

@@ -87,14 +87,6 @@
   import data from '../build/data.json';
   import ServerImages2 from './images/servers2';
 
-  // Decide which birthday year to show
-  const now = new Date();
-  const end = new Date(`${now.getFullYear()}-05-14T00:00:00-1200`);
-  const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
-  const active = now >= start && now < end;
-  const birthday = now.getFullYear() - 2015 - (now < start ? 1 : 0);
-  const year = now.getFullYear() - (now < start ? 1 : 0);
-
   export default {
     name: 'WhosParticipating',
     components: {
@@ -102,9 +94,9 @@
     },
     data () {
       return {
-        active,
-        birthday,
-        year,
+        active: false,
+        birthday: 1,
+        year: 2015,
         members: Math.round(data.members / 1000).toLocaleString(), // 12345 => 12
         blurple: data.blurple > 2000
           ? (Math.round(data.blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
@@ -116,6 +108,15 @@
         painters: (Math.floor(data.painters / 10) * 10).toLocaleString(), // 123 => 120
         adventurers: (Math.floor(data.adventurers / 10) * 10).toLocaleString(), // 123 => 120
       };
+    },
+    created () {
+      // Decide which birthday year to show
+      const now = new Date();
+      const end = new Date(`${now.getFullYear()}-05-14T00:00:00-1200`);
+      const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
+      this.$data.active = now >= start && now < end;
+      this.$data.birthday = now.getFullYear() - 2015 - (now < start ? 1 : 0);
+      this.$data.year = now.getFullYear() - (now < start ? 1 : 0);
     },
     methods: {
       ordinal,
