@@ -57,7 +57,7 @@
 
         .title {
           font-size: $title * 1rem;
-          margin: 0;
+          margin: 0 0 .5rem;
 
           @media (max-width: $break) {
             font-size: $title-vw * 1vw;
