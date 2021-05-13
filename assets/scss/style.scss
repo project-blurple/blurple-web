@@ -1,9 +1,14 @@
-// Set some base variables
-$white: #23272a;
+// Discord brand colors
+$blurple: #5865f2;
+$dark-blurple: darken($blurple, 7%); // #3746ef
+$not-quite-black: #23272a;
+
+// Client colors
 $guild: #202225;
 $light-guild: #e3e5e8;
-$blurple: #7289da;
-$dark-blurple: #4e5d94;
+
+// Set some base variables
+$white: $not-quite-black;
 $black: hsl(0, 0%, 100%);
 $black-bis: hsl(0, 0%, 98%);
 $black-ter: hsl(0, 0%, 96%);
