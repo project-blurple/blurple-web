@@ -7,8 +7,8 @@
             Blurple
           </h1>
           <h2 class="subtitle">
-            Hex: #7289DA
-            <br>RGB: rgb(114, 137, 218)
+            Hex: #5865f2
+            <br>RGB: rgb(88, 101, 242)
           </h2>
         </div>
         <div class="column is-two-thirds">
@@ -25,8 +25,8 @@
             Dark Blurple
           </h1>
           <h2 class="subtitle">
-            Hex: #4E5D94
-            <br>RGB: rgb(78, 93, 148)
+            Hex: #3746ef
+            <br>RGB: rgb(55, 70, 239)
           </h2>
         </div>
         <div class="column is-one-third">
