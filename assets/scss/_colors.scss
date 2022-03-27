@@ -21,24 +21,26 @@
       }
     }
 
-    &:nth-child(2) {
-      .column {
-        &:nth-child(1) {
-          background: $dark-blurple;
-        }
+    .column {
+      &.not-quite-blurple {
+        background: $not-quite-blurple;
+      }
 
-        &:nth-child(2) {
-          background: $black;
+      &.dark-blurple {
+        background: $dark-blurple;
+      }
 
-          .title,
-          .subtitle {
-            color: $white;
-          }
-        }
+      &.white {
+        background: $black;
 
-        &:nth-child(3) {
-          background: $white;
+        .title,
+        .subtitle {
+          color: $white;
         }
+      }
+
+      &.not-quite-black {
+        background: $not-quite-black;
       }
     }
   }

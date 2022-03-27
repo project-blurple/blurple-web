@@ -20,7 +20,16 @@
       </div>
 
       <div class="columns">
-        <div class="column is-one-third">
+        <div class="column is-half not-quite-blurple">
+          <h1 class="title">
+            Not Quite Blurple
+          </h1>
+          <h2 class="subtitle">
+            Hex: #404eed
+            <br>RGB: rgb(64, 78, 237)
+          </h2>
+        </div>
+        <div class="column is-half dark-blurple">
           <h1 class="title">
             Dark Blurple
           </h1>
@@ -29,7 +38,10 @@
             <br>RGB: rgb(55, 70, 239)
           </h2>
         </div>
-        <div class="column is-one-third">
+      </div>
+
+      <div class="columns">
+        <div class="column is-half white">
           <h1 class="title">
             White
           </h1>
@@ -38,9 +50,9 @@
             <br>RGB: rgb(255, 255, 255)
           </h2>
         </div>
-        <div class="column is-one-third">
+        <div class="column is-half not-quite-black">
           <h1 class="title">
-            Dark
+            Not Quite Black
           </h1>
           <h2 class="subtitle">
             Hex: #23272A
