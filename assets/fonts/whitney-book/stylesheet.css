@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Whitney';
+  font-family: 'Whitney Book';
   src: url('Whitney-Book.eot');
   src: local('Whitney-Book'),
     url('Whitney-Book.eot?#iefix') format('embedded-opentype'),
@@ -7,7 +7,7 @@
     url('Whitney-Book.woff') format('woff'),
     url('Whitney-Book.ttf') format('truetype'),
     url('Whitney-Book.svg#Whitney-Book') format('svg');
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
