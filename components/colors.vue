@@ -7,7 +7,7 @@
             Blurple
           </h1>
           <h2 class="subtitle">
-            Hex: #5865f2
+            Hex: #5865F2
             <br>RGB: rgb(88, 101, 242)
           </h2>
         </div>
@@ -25,7 +25,7 @@
             Not Quite Blurple
           </h1>
           <h2 class="subtitle">
-            Hex: #404eed
+            Hex: #404EED
             <br>RGB: rgb(64, 78, 237)
           </h2>
         </div>
@@ -34,8 +34,8 @@
             Dark Blurple
           </h1>
           <h2 class="subtitle">
-            Hex: #3746ef
-            <br>RGB: rgb(55, 70, 239)
+            Hex: #2C3AD2
+            <br>RGB: rgb(44, 58, 210)
           </h2>
         </div>
       </div>
@@ -57,6 +57,27 @@
           <h2 class="subtitle">
             Hex: #23272A
             <br>RGB: rgb(35, 39, 42)
+          </h2>
+        </div>
+      </div>
+
+      <div class="columns">
+        <div class="column is-half legacy-blurple">
+          <h1 class="title">
+            Legacy Blurple
+          </h1>
+          <h2 class="subtitle">
+            Hex: #7289DA
+            <br>RGB: rgb(114, 137, 218)
+          </h2>
+        </div>
+        <div class="column is-half legacy-dark">
+          <h1 class="title">
+            Legacy Dark
+          </h1>
+          <h2 class="subtitle">
+            Hex: #4E5D94
+            <br>RGB: rgb(78, 93, 148)
           </h2>
         </div>
       </div>

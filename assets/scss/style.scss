@@ -1,9 +1,10 @@
 // Discord brand colors
-// https://www.figma.com/community/file/992144378612759941?preview=fullscreen
-$blurple: #5865f2;
-$not-quite-blurple: #404eed; // From Discord's homepage
-$dark-blurple: darken($blurple, 7%); // #3746ef
+$blurple: #5865F2;
+$not-quite-blurple: #404EED; // From Discord's homepage
+$dark-blurple: desaturate(darken($blurple, 15%), 20%); // #2C3AD2
 $not-quite-black: #23272a;
+$legacy-blurple: #7289DA;
+$legacy-dark: #4E5D94;
 
 // Client colors
 $guild: #202225;

@@ -42,6 +42,14 @@
       &.not-quite-black {
         background: $not-quite-black;
       }
+
+      &.legacy-blurple {
+        background: $legacy-blurple;
+      }
+
+      &.legacy-dark {
+        background: $legacy-dark;
+      }
     }
   }
 }
