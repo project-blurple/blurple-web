@@ -35,8 +35,8 @@
               Dark Blurple
             </h1>
             <h2 class="info">
-              #2C3AD2
-              <br>rgb(44, 58, 210)
+              #454FBF
+              <br>rgb(69, 79, 191)
             </h2>
           </div>
         </div>
