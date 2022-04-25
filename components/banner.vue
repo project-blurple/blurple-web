@@ -1,18 +1,18 @@
 <template>
   <section v-if="birthday || seeYouNextYear || seeYouInMay || birthdaySoon" class="section banner">
     <div class="container">
-      <h1 v-if="birthday" class="title">
+      <h2 v-if="birthday" class="subtitle">
         Happy Birthday, Discord! 🎉🎂
-      </h1>
-      <h1 v-if="seeYouNextYear" class="title">
+      </h2>
+      <h2 v-if="seeYouNextYear" class="subtitle">
         <small>See you next year in May for Discord's birthday!</small>
-      </h1>
-      <h1 v-if="seeYouInMay" class="title">
-        <small>Get ready to celebrate Discord's birthday starting on May 7th!</small>
-      </h1>
-      <h1 v-if="birthdaySoon" class="title">
+      </h2>
+      <h2 v-if="seeYouInMay" class="subtitle">
+        <small>Get ready for birthday celebrations starting May 7th!</small>
+      </h2>
+      <h2 v-if="birthdaySoon" class="subtitle">
         <small>Get involved to celebrate Discord's birthday!</small>
-      </h1>
+      </h2>
     </div>
   </section>
 </template>
