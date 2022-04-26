@@ -21,16 +21,7 @@
 
       <div class="others">
         <div class="columns">
-          <div class="column is-half not-quite-blurple">
-            <h1 class="title">
-              Not Quite Blurple
-            </h1>
-            <h2 class="info">
-              #404EED
-              <br>rgb(64, 78, 237)
-            </h2>
-          </div>
-          <div class="column is-half dark-blurple">
+          <div class="column is-full dark-blurple">
             <h1 class="title">
               Dark Blurple
             </h1>
