@@ -53,17 +53,16 @@
       margin: 13rem 0 3.5rem;
 
       .media-content {
-        margin: 0 0 3.5rem;
+        margin: 0 0 3rem;
         text-align: right;
 
         @media (max-width: $desktop) {
-          margin: 0 0 1.5rem;
+          margin: 0 0 1rem;
         }
 
         .title {
           font-size: $title * 1rem;
           margin: 0 0 .5rem;
-          text-transform: uppercase;
 
           @media (max-width: $break) {
             font-size: $title-vw * 1vw;
@@ -85,6 +84,7 @@
 
         .subtitle {
           font-size: $title * .4 * 1rem;
+          margin-top: -.75rem;
 
           @media (max-width: $break) {
             font-size: $title-vw * .4 * 1vw;
