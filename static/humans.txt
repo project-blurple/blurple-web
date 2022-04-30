@@ -121,5 +121,5 @@
 
 /* SITE */
   Language: English
-  Components: Nuxt, Bulma, node-sass
-  Software: WebStorm, Sketch
+  Components: Nuxt, Bulma
+  Software: WebStorm, Figma
