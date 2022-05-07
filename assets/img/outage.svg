@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>Outage</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Outage">
-            <circle id="Oval" stroke="#F04747" stroke-width="20" fill="#413338" cx="256" cy="256" r="246"></circle>
-            <polygon id="Path" fill="#FFFFFF" points="238 189 274 189 266 276 248 280"></polygon>
-            <rect id="Rectangle" fill="#FFFFFF" x="240" y="295" width="32" height="35"></rect>
-        </g>
-    </g>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="outage">
+    <circle id="oval" stroke="#F04747" stroke-width="20" fill="#413338" cx="256" cy="256" r="246"/>
+    <polygon id="path" fill="#FFFFFF" points="238 189 274 189 266 276 248 280"/>
+    <rect id="rectangle" fill="#FFFFFF" x="240" y="295" width="32" height="35"/>
+  </g>
 </svg>

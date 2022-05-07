@@ -3,9 +3,9 @@
 .hero {
   background-color: $not-quite-black;
   background-image: url("../img/waves.svg");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  background-size: auto 100%;
   max-width: 100vw;
   position: relative;
 
@@ -13,7 +13,7 @@
     padding: 3rem 1.5rem;
 
     @media (max-width: $desktop) {
-      padding: 3rem .5rem;
+      padding: 3rem .5rem 1.5rem;
     }
 
     &.has-countdown {
@@ -43,7 +43,7 @@
 
     .media {
       $title: 5;
-      $title-vw: 20;
+      $title-vw: 15;
       $break: math.div($title * 16px, math.div($title-vw, 100));
 
       @media (max-width: $desktop) {
