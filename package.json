@@ -9,12 +9,10 @@
     "dev": "nuxt",
     "generate": "nuxt generate",
     "analyze": "nuxt build --analyze",
-    "lint": "npm run lint:eslint && npm run lint:sass-lint",
-    "lint:fix": "npm run lint:eslint:fix && npm run lint:sass-lint:fix",
+    "lint": "npm run lint:eslint",
+    "lint:fix": "npm run lint:eslint:fix",
     "lint:eslint": "eslint --ignore-path .gitignore '**/*.@(js|vue)'",
-    "lint:eslint:fix": "npm run lint:eslint -- --fix",
-    "lint:sass-lint": "sass-lint 'assets/scss/**/*.scss' --verbose --no-exit --config .sasslintrc",
-    "lint:sass-lint:fix": "sass-lint-auto-fix 'assets/scss/**/*.scss'"
+    "lint:eslint:fix": "npm run lint:eslint -- --fix"
   },
   "dependencies": {
     "nuxt": "^2.15.4"
@@ -22,15 +20,11 @@
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/google-analytics": "^2.4.0",
-    "babel-eslint": "^10.0.1",
     "bulma": "^0.9.2",
     "eslint": "^7.25.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "fibers": "^5.0.0",
     "ordinal": "^1.0.3",
     "sass": "^1.32.12",
-    "sass-lint": "^1.13.1",
-    "sass-lint-auto-fix": "^0.21.2",
-    "sass-loader": "^10.1.1"
+    "sass-loader": "^10.2.1"
   }
 }

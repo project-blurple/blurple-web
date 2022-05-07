@@ -2,42 +2,64 @@
   background: $blurple;
   padding: 3rem 1.5rem;
 
-  .columns {
-    .column {
-      padding: 1.5rem 1rem;
-
-      .title {
-        margin-bottom: 2.5rem;
-      }
-    }
-
+  > .container > .columns {
     &:nth-child(1) {
+      margin-bottom: 2.5rem;
+
       .column {
         &.is-two-thirds {
+          align-items: flex-end;
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
         }
       }
     }
+  }
 
-    &:nth-child(2) {
+  .columns {
+    .column {
+      padding: 1.5rem 1rem;
+
+      .title {
+        margin-bottom: 1.5rem;
+      }
+
+      .info {
+        color: $black;
+        font-weight: $weight-normal;
+        line-height: 1.2;
+        opacity: .6;
+      }
+    }
+  }
+
+  .others {
+    .columns {
       .column {
-        &:nth-child(1) {
+        &.dark-blurple {
           background: $dark-blurple;
         }
 
-        &:nth-child(2) {
+        &.white {
           background: $black;
 
           .title,
-          .subtitle {
+          .info {
             color: $white;
           }
         }
 
-        &:nth-child(3) {
-          background: $white;
+        &.not-quite-black {
+          background: $not-quite-black;
+        }
+
+        &.legacy-blurple {
+          background: $legacy-blurple;
+        }
+
+        &.legacy-dark {
+          background: $legacy-dark;
         }
       }
     }

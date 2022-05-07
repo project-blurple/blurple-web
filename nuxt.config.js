@@ -47,7 +47,6 @@ export default {
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: `${base}/favicon-16x16.png` },
       { rel: 'apple-touch-icon', type: 'image/png', sizes: '180x180', href: `${base}/apple-touch-icon.png` },
       { rel: 'manifest', href: `${base}/site.webmanifest` },
-      { rel: 'author', href: `${base}/humans.txt` },
       { rel: 'canonical', href: base },
     ],
   },

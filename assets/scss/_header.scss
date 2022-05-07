@@ -1,4 +1,5 @@
 .hero {
+  background-color: $not-quite-black;
   background-image: url("../img/waves.svg");
   background-position: bottom right;
   background-repeat: no-repeat;
@@ -21,14 +22,19 @@
         flex-direction: column;
 
         .countdown {
-          background: $dark-blurple;
+          background: $blurple;
           border-radius: 1.5rem;
-          box-shadow: -.2em .2em $guild;
           color: $black;
           font-size: 1rem;
-          margin: 0 auto;
-          padding: .7rem 1rem;
+          font-variant-numeric: tabular-nums;
+          font-weight: 600;
+          margin: -1rem auto 2rem;
+          padding: .2rem 1rem;
           text-align: center;
+
+          p {
+            line-height: 2;
+          }
         }
       }
     }
@@ -47,17 +53,16 @@
       margin: 13rem 0 3.5rem;
 
       .media-content {
-        margin: 0 0 3.5rem;
+        margin: 0 0 3rem;
         text-align: right;
-        text-transform: uppercase;
 
         @media (max-width: $desktop) {
-          margin: 0 0 1.5rem;
+          margin: 0 0 1rem;
         }
 
         .title {
           font-size: $title * 1rem;
-          margin: 0;
+          margin: 0 0 .5rem;
 
           @media (max-width: $break) {
             font-size: $title-vw * 1vw;
@@ -78,10 +83,11 @@
         }
 
         .subtitle {
-          font-size: $title * .3 * 1rem;
+          font-size: $title * .4 * 1rem;
+          margin-top: -.75rem;
 
           @media (max-width: $break) {
-            font-size: $title-vw * .3 * 1vw;
+            font-size: $title-vw * .4 * 1vw;
           }
         }
       }

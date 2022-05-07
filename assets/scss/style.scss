@@ -1,17 +1,25 @@
-// Set some base variables
-$white: #23272a;
+// Discord brand colors
+$blurple: #5865F2;
+$dark-blurple: #454FBF;
+$not-quite-black: #23272a;
+$legacy-blurple: #7289DA;
+$legacy-dark: #4E5D94;
+
+// Client colors
 $guild: #202225;
 $light-guild: #e3e5e8;
-$blurple: #7289da;
-$dark-blurple: #4e5d94;
+
+// Set some base variables
+$white: $not-quite-black;
 $black: hsl(0, 0%, 100%);
 $black-bis: hsl(0, 0%, 98%);
 $black-ter: hsl(0, 0%, 96%);
 $grey-darker: hsl(0, 0%, 93%);
 $grey-dark: hsl(0, 0%, 86%);
 $grey: hsl(0, 0%, 71%);
-$family-sans-serif: "Whitney Book", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-sans-serif: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-display: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+$family-headline: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $footer-background-color: $black;
 
 // Import the bits of bulma we need
@@ -24,8 +32,9 @@ $footer-background-color: $black;
 @import "~bulma/sass/components/media";
 
 // Import the custom fonts
-@import "../fonts/uni-sans/stylesheet.css";
-@import "../fonts/whitney-book/stylesheet.css";
+@import "../fonts/ginto-nord/stylesheet.css";
+@import "../fonts/ginto-normal/stylesheet.css";
+@import "../fonts/whitney/stylesheet.css";
 
 // Import our components
 @import "base";

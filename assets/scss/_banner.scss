@@ -1,15 +1,15 @@
 .banner {
-  background: $blurple;
-  box-shadow: 0 .3em $dark-blurple;
-  margin: 0 0 3rem;
-  padding: 1.5rem 1.5rem 1rem;
+  background: $not-quite-black;
+  padding: 1.5rem 1.5rem 4rem;
   text-align: center;
 
-  h1 {
+  h2 {
+    font-size: 2.5rem;
+
     small {
       display: block;
-      font-size: .65em;
-      line-height: 1;
+      font-size: .75em;
+      line-height: 1.5;
     }
   }
 }

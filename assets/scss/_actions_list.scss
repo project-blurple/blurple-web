@@ -10,10 +10,10 @@
       margin: 0 0 1.5rem;
 
       &::marker {
-        color: #4e5d94;
-        font-family: "Uni Sans", sans-serif;
+        color: $dark-blurple;
+        font-family: $family-headline;
         font-size: 2.5rem;
-        font-weight: 900;
+        font-weight: 800;
       }
     }
   }

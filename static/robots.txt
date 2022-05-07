@@ -1,6 +1,4 @@
 # We have nothing to hide from our robot overlords
-# Curious who we are? See /humans.txt
-# (or the about section of the website, I don't control you)
 
 User-agent: *
 Allow: /

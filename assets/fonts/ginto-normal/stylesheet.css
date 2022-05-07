@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Ginto Normal';
+  src: url('ginto-normal.woff2') format('woff2'), url('ginto-normal.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
