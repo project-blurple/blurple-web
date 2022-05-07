@@ -69,7 +69,6 @@
 
 <script>
   import ordinal from 'ordinal/indicator';
-  import data from '../build/data.json';
   import ServerImages2 from './images/servers2';
 
   export default {
@@ -82,17 +81,13 @@
         active: false,
         birthday: 1,
         year: 2015,
-        members: data.members && Math.round(data.members / 1000).toLocaleString(), // 12345 => 12
-        blurple: data.blurple && (
-          data.blurple > 2000
-            ? (Math.round(data.blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
-            : (Math.floor(data.blurple / 10) * 10).toLocaleString() + '+'
-        ), // 123 => 120
-        servers: data.servers && (Math.floor(data.servers / 10) * 10).toLocaleString(), // 123 => 120
-        donators: data.donators && data.donators.toLocaleString(),
-        artists: data.artists && (Math.floor(data.artists / 10) * 10).toLocaleString(), // 123 => 120
-        painters: data.painters && (Math.floor(data.painters / 10) * 10).toLocaleString(), // 123 => 120
-        adventurers: data.adventurers && (Math.floor(data.adventurers / 10) * 10).toLocaleString(), // 123 => 120
+        members: '...',
+        blurple: '...',
+        servers: '...',
+        donators: '...',
+        artists: '...',
+        painters: '...',
+        adventurers: '...',
       };
     },
     created () {
@@ -103,6 +98,29 @@
       this.$data.active = now >= start && now < end;
       this.$data.birthday = now.getFullYear() - 2015 - (now < start ? 1 : 0);
       this.$data.year = now.getFullYear() - (now < start ? 1 : 0);
+    },
+    fetchOnServer: false,
+    async fetch () {
+      // Fetch the stats
+      const resp = await fetch(process.env.statsUrl);
+      if (!resp.ok) {
+        const text = await resp.text().catch(() => '');
+        throw new Error(`Failed to fetch stats: ${resp.status} ${resp.statusText} - ${text}`);
+      }
+
+      // Parse JSON and translate to useful data
+      const data = await resp.json();
+      this.$data.members = data.members && Math.round(data.members / 1000).toLocaleString(); // 12345 => 12
+      this.$data.blurple = data.blurple && (
+        data.blurple > 2000
+          ? (Math.round(data.blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
+          : (Math.floor(data.blurple / 10) * 10).toLocaleString() + '+' // 123 => 120
+      );
+      this.$data.servers = data.servers && (Math.floor(data.servers / 10) * 10).toLocaleString(); // 123 => 120
+      this.$data.donators = data.donators && data.donators.toLocaleString();
+      this.$data.artists = data.artists && (Math.floor(data.artists / 10) * 10).toLocaleString(); // 123 => 120
+      this.$data.painters = data.painters && (Math.floor(data.painters / 10) * 10).toLocaleString(); // 123 => 120
+      this.$data.adventurers = data.adventurers && (Math.floor(data.adventurers / 10) * 10).toLocaleString(); // 123 => 120
     },
     methods: {
       ordinal,

@@ -23,7 +23,6 @@
     "bulma": "^0.9.3",
     "eslint": "^8.15.0",
     "eslint-plugin-nuxt": "^3.2.0",
-    "node-fetch": "^3.2.4",
     "ordinal": "^1.0.3",
     "sass": "^1.51.0",
     "sass-loader": "^10.2.1"
