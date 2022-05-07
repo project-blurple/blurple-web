@@ -1,70 +1,54 @@
 <template>
   <div class="columns images">
     <div class="column is-half">
-      <a href="https://discord.gg/marvel" target="_blank" rel="noopener">
+      <a href="https://discord.gg/photography" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/r-marvel.png"
+          src="../../assets/img/servers/photography-lounge.png"
           loading="lazy"
-          title="r/Marvel Discord"
-          alt="r/Marvel Discord"
+          title="Photography Lounge"
+          alt="Photography Lounge"
         >
       </a>
-      <a href="https://discord.gg/pFUhE5z" target="_blank" rel="noopener">
+      <a href="https://discord.gg/jb" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/blob-emoji.png"
+          src="../../assets/img/servers/r-jailbreak.png"
           loading="lazy"
-          title="Blob Emoji"
-          alt="Blob Emoji"
+          title="r/Jailbreak"
+          alt="r/Jailbreak"
         >
       </a>
-      <a href="https://discord.gg/amongusfr" target="_blank" rel="noopener">
+      <a href="https://discord.gg/pokemonunite" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/among-us-france.png"
+          src="../../assets/img/servers/r-pokemon-unite.png"
           loading="lazy"
-          title="Among Us France"
-          alt="Among Us France"
-        >
-      </a>
-      <a href="https://discord.gg/kurzgesagt" target="_blank" rel="noopener">
-        <img
-          src="../../assets/img/servers/kurzgesagt-in-a-nutshell.png"
-          loading="lazy"
-          title="Kurzgesagt - In A Nutshell"
-          alt="Kurzgesagt - In A Nutshell"
+          title="r/PokemonUnite"
+          alt="r/PokemonUnite"
         >
       </a>
     </div>
     <div class="column is-half">
-      <a href="https://discord.gg/google" target="_blank" rel="noopener">
+      <a href="https://discord.gg/zooba" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/r-google.png"
+          src="../../assets/img/servers/zooba.png"
           loading="lazy"
-          title="r/Google"
-          alt="r/Google"
+          title="Zooba: Zoo Battle Arena"
+          alt="Zooba: Zoo Battle Arena"
         >
       </a>
-      <a href="https://discord.gg/wjfGmG3" target="_blank" rel="noopener">
+      <a href="https://discord.gg/program" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/discord-nitro.png"
+          src="../../assets/img/servers/world-of-coding.png"
           loading="lazy"
-          title="Discord Nitro"
-          alt="Discord Nitro"
+          title="World of Coding"
+          alt="World of Coding"
         >
       </a>
-      <a href="https://discord.gg/harmony" target="_blank" rel="noopener">
+      <a href="https://discord.gg/mzKcdUzs" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/harmony.png"
+          src="../../assets/img/servers/das-klassenzimmer.png"
           loading="lazy"
-          title="Harmony"
-          alt="Harmony"
-        >
-      </a>
-      <a href="https://discord.gg/miaplays" target="_blank" rel="noopener">
-        <img
-          src="../../assets/img/servers/mia-plays.png"
-          loading="lazy"
-          title="Mia Plays"
-          alt="Mia Plays"
+          title="Das Klassenzimmer"
+          alt="Das Klassenzimmer"
         >
       </a>
     </div>
