@@ -51,7 +51,7 @@ export default {
       { rel: 'canonical', href: baseUrl },
     ],
   },
-  loading: { color: color },
+  loading: { color },
   css: [
     '~/assets/scss/style.scss',
   ],
@@ -67,5 +67,5 @@ export default {
   env: {
     baseUrl,
     statsUrl,
-  }
+  },
 };

@@ -1,9 +1,7 @@
 <template>
   <div class="columns images is-light">
-    <div class="column is-half">
-    </div>
-    <div class="column is-half">
-    </div>
+    <div class="column is-half" />
+    <div class="column is-half" />
   </div>
 </template>
 

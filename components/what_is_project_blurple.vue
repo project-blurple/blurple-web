@@ -100,13 +100,6 @@
         blurple: '...',
       };
     },
-    created () {
-      // Decide which birthday year to show
-      const now = new Date();
-      const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
-      this.$data.year = now.getFullYear() - (now < start ? 1 : 0);
-    },
-    fetchOnServer: false,
     async fetch () {
       // Fetch the stats
       const resp = await fetch(process.env.statsUrl);
@@ -123,5 +116,12 @@
           : (Math.floor(data.blurple / 10) * 10).toLocaleString() // 123 => 120
       );
     },
+    created () {
+      // Decide which birthday year to show
+      const now = new Date();
+      const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
+      this.$data.year = now.getFullYear() - (now < start ? 1 : 0);
+    },
+    fetchOnServer: false,
   };
 </script>
