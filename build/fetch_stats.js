@@ -1,16 +1,16 @@
 import fs from 'fs';
 import path from 'path';
+import fetch from 'node-fetch';
 
 export default async () => {
-  // TODO: Replace this with an API call?
-  await fs.promises.writeFile(path.join(__dirname, 'data.json'), JSON.stringify({
-    members: 71345, // -serverinfo
-    blurple: 9532, // !roles -counts
-    servers: 1496, // Search `in:#blurple-servers from: Blurplefied#5422`
-    messages: 575091, // Search `after: 2021-05-06 in: general in: bot-playground in: blurplefier-1 in: blurplefier-2 in: blurple-check in: canvas in: paint`
-    donators: 52, // !roles -counts
-    painters: 707, // !roles -counts
-    artists: 896, // !roles -counts
-    adventurers: 453, // !roles -counts
-  }));
+  // Fetch the stats
+  const resp = await fetch('http://api.projectblurple.com/stats');
+  if (!resp.ok) {
+    const text = await resp.text().catch(() => '');
+    throw new Error(`Failed to fetch stats: ${resp.status} ${resp.statusText} - ${text}`);
+  }
+
+  // Parse JSON to check it's valid, and then write it to the file
+  const data = await resp.json();
+  await fs.promises.writeFile(path.join(__dirname, 'data.json'), JSON.stringify(data));
 };

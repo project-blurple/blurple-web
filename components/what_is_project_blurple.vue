@@ -64,6 +64,13 @@
             involved, using Blurplefied versions of the icons and spreading the word.
           </p>
 
+          <p>
+            2021 was another wonderful year for Project Blurple, celebrating Discord's 6th birthday in style with other
+            71k members in the server for the celebrations, chatting away with over 575k message sent, and nearly 10k of
+            those members getting involved by theming their profile picture around the Blurple color. Amazingly, we saw
+            over 1.4k Discord servers get involved this year, updating their server icons to use the Blurple color!
+          </p>
+
           <blockquote>
             <p>
               We're back for {{ year }} and we had yet another amazing event to celebrate Discord's birthday, with over

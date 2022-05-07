@@ -11,17 +11,18 @@
             Anyone and everyone can participate in Project Blurple, and many already have!
           </p>
 
-          <p>
+          <p v-if="members && blurple">
             For the celebration of Discord's {{ birthday }}{{ ordinal(birthday) }} birthday, over <code>{{ members }}
               thousand members</code> {{ active ? 'have already joined' : 'joined' }} the <a
               href="https://discord.gg/qEmKyCf"
               target="_blank"
               rel="noopener"
-            >official Project Blurple server</a>, with an amazing <code>{{ blurple }} Blurple users</code> who updated
-            their Discord avatar to use Blurple colors as part of the celebration.
+            >official Project Blurple server</a>, chatting with each other and sharing their love for all things
+            Discord &amp; Blurple. An amazing <code>{{ blurple }} Blurple users</code> have dived right in to the event,
+            updating their Discord avatar to use Blurple colors as part of the celebration.
           </p>
 
-          <p>
+          <p v-if="servers">
             Alongside the Blurple users, <code>{{ servers }}+ Discord servers</code> listed themselves as participating
             with their custom Blurple-themed icons in the <a
               href="https://discord.gg/qEmKyCf"
@@ -30,23 +31,7 @@
             >Project Blurple server</a> to celebrate Discord's {{ birthday }}{{ ordinal(birthday) }} birthday.
           </p>
 
-          <p>
-            <template v-if="active">
-              So far, for the {{ year }} celebration that launched on May 7th,
-            </template>
-            <template v-else>
-              During the {{ year }} celebration that launched on May 7th and ended on May 14th,
-            </template>
-            members of the <a
-              href="https://discord.gg/qEmKyCf"
-              target="_blank"
-              rel="noopener"
-            >official Project Blurple server</a> {{ active ? 'have already posted' : 'posted' }} a massive
-            <code>{{ messages }}k+ messages</code>, chatting with each other and sharing their love for all things
-            Discord &amp; Blurple.
-          </p>
-
-          <p>
+          <p v-if="donators">
             This year, {{ donators }} awesome members of the <a
               href="https://discord.gg/qEmKyCf"
               target="_blank"
@@ -57,7 +42,7 @@
             throughout the celebration.
           </p>
 
-          <p>
+          <p v-if="artists && painters">
             Through the <a
               href="https://discord.gg/qEmKyCf"
               target="_blank"
@@ -68,7 +53,7 @@
             Project Blurple giveaways.
           </p>
 
-          <p>
+          <p v-if="adventurers">
             Alongside the celebrations on Discord, more than <code>{{ adventurers }} adventurers</code>
             {{ active ? 'have begun exploring' : 'explored' }} the Project Blurple Minecraft server, travelling across
             the world, building new homes, designing exciting new skins and forging new friendships.
@@ -97,16 +82,17 @@
         active: false,
         birthday: 1,
         year: 2015,
-        members: Math.round(data.members / 1000).toLocaleString(), // 12345 => 12
-        blurple: data.blurple > 2000
-          ? (Math.round(data.blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
-          : (Math.floor(data.blurple / 10) * 10).toLocaleString() + '+', // 123 => 120
-        servers: (Math.floor(data.servers / 10) * 10).toLocaleString(), // 123 => 120
-        messages: Math.round(data.messages / 1000).toLocaleString(), // 12345 => 12
-        donators: data.donators.toLocaleString(),
-        artists: (Math.floor(data.artists / 10) * 10).toLocaleString(), // 123 => 120
-        painters: (Math.floor(data.painters / 10) * 10).toLocaleString(), // 123 => 120
-        adventurers: (Math.floor(data.adventurers / 10) * 10).toLocaleString(), // 123 => 120
+        members: data.members && Math.round(data.members / 1000).toLocaleString(), // 12345 => 12
+        blurple: data.blurple && (
+          data.blurple > 2000
+            ? (Math.round(data.blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
+            : (Math.floor(data.blurple / 10) * 10).toLocaleString() + '+'
+        ), // 123 => 120
+        servers: data.servers && (Math.floor(data.servers / 10) * 10).toLocaleString(), // 123 => 120
+        donators: data.donators && data.donators.toLocaleString(),
+        artists: data.artists && (Math.floor(data.artists / 10) * 10).toLocaleString(), // 123 => 120
+        painters: data.painters && (Math.floor(data.painters / 10) * 10).toLocaleString(), // 123 => 120
+        adventurers: data.adventurers && (Math.floor(data.adventurers / 10) * 10).toLocaleString(), // 123 => 120
       };
     },
     created () {
