@@ -1,3 +1,5 @@
+@use "sass:math";
+
 .hero {
   background-color: $not-quite-black;
   background-image: url("../img/waves.svg");
@@ -42,7 +44,7 @@
     .media {
       $title: 5;
       $title-vw: 20;
-      $break: ($title * 16px) / ($title-vw / 100);
+      $break: math.div($title * 16px, math.div($title-vw, 100));
 
       @media (max-width: $desktop) {
         flex-direction: column;
