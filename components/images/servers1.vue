@@ -9,12 +9,12 @@
           alt="Tatsu's Lounge"
         >
       </a>
-      <a href="https://discord.gg/imagine" target="_blank" rel="noopener">
+      <a href="https://discord.gg/kurzgesagt" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/pure-imagination.png"
+          src="../../assets/img/servers/kurzgesagt.png"
           loading="lazy"
-          title="Pure Imagination"
-          alt="Pure Imagination"
+          title="Kurzgesagt - In a Nutshell"
+          alt="Kurzgesagt - In a Nutshell"
         >
       </a>
     </div>
@@ -27,12 +27,12 @@
           alt="Ayana Community"
         >
       </a>
-      <a href="https://discord.gg/borderlands" target="_blank" rel="noopener">
+      <a href="https://discord.gg/PhuwrDtVjJ" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/borderlands.png"
+          src="../../assets/img/servers/thank-you-discord.png"
           loading="lazy"
-          title="Borderlands"
-          alt="Borderlands"
+          title="Thank You Discord 2022"
+          alt="Thank You Discord 2022"
         >
       </a>
     </div>

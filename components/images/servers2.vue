@@ -1,6 +1,14 @@
 <template>
   <div class="columns images">
     <div class="column is-half">
+      <a href="https://discord.gg/borderlands" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/borderlands.png"
+          loading="lazy"
+          title="Borderlands"
+          alt="Borderlands"
+        >
+      </a>
       <a href="https://discord.gg/photography" target="_blank" rel="noopener">
         <img
           src="../../assets/img/servers/photography-lounge.png"
@@ -27,6 +35,14 @@
       </a>
     </div>
     <div class="column is-half">
+      <a href="https://discord.gg/spotify" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/the-spotify-hangout.png"
+          loading="lazy"
+          title="The Spotify Hangout"
+          alt="The Spotify Hangout"
+        >
+      </a>
       <a href="https://discord.gg/zooba" target="_blank" rel="noopener">
         <img
           src="../../assets/img/servers/zooba.png"
@@ -35,12 +51,12 @@
           alt="Zooba: Zoo Battle Arena"
         >
       </a>
-      <a href="https://discord.gg/program" target="_blank" rel="noopener">
+      <a href="https://discord.gg/starwars" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/world-of-coding.png"
+          src="../../assets/img/servers/r-star-wars.png"
           loading="lazy"
-          title="World of Coding"
-          alt="World of Coding"
+          title="/r/StarWars"
+          alt="/r/StarWars"
         >
       </a>
       <a href="https://discord.gg/mzKcdUzs" target="_blank" rel="noopener">
