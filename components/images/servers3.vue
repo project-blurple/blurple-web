@@ -25,6 +25,14 @@
           alt="World of Coding"
         >
       </a>
+      <a href="https://discord.gg/sound" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/sounds-world.png"
+          loading="lazy"
+          title="Sound's World"
+          alt="Sound's World"
+        >
+      </a>
     </div>
     <div class="column is-half">
       <a href="https://discord.gg/imagine" target="_blank" rel="noopener">
