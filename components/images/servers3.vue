@@ -51,6 +51,14 @@
           alt="Tiny Tina's Wonderlands"
         >
       </a>
+      <a href="https://discord.gg/swtor" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/swtor.png"
+          loading="lazy"
+          title="SWTOR"
+          alt="SWTOR"
+        >
+      </a>
     </div>
   </div>
 </template>
