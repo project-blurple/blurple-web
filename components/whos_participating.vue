@@ -1,5 +1,5 @@
 <template>
-  <section class="section whos-participating">
+  <section class="section" id="whos-participating">
     <div class="container">
       <div class="columns">
         <div class="column is-three-quarters is-full-tablet">

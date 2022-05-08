@@ -1,5 +1,5 @@
 <template>
-  <section class="section colors">
+  <section class="section" id="colors">
     <div class="container">
       <div class="columns">
         <div class="column is-one-third">
