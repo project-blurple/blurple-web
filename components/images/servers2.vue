@@ -1,6 +1,14 @@
 <template>
   <div class="columns images">
     <div class="column is-half">
+      <a href="https://discord.gg/tatsu" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/tatsu-lounge.png"
+          loading="lazy"
+          title="Tatsu's Lounge"
+          alt="Tatsu's Lounge"
+        >
+      </a>
       <a href="https://discord.gg/borderlands" target="_blank" rel="noopener">
         <img
           src="../../assets/img/servers/borderlands.png"
@@ -23,14 +31,6 @@
           loading="lazy"
           title="r/Jailbreak"
           alt="r/Jailbreak"
-        >
-      </a>
-      <a href="https://discord.gg/pokemonunite" target="_blank" rel="noopener">
-        <img
-          src="../../assets/img/servers/r-pokemon-unite.png"
-          loading="lazy"
-          title="r/PokemonUnite"
-          alt="r/PokemonUnite"
         >
       </a>
     </div>

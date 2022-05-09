@@ -1,12 +1,12 @@
 <template>
   <div class="columns images">
     <div class="column is-half">
-      <a href="https://discord.gg/tatsu" target="_blank" rel="noopener">
+      <a href="https://discord.gg/ncEPCTC" target="_blank" rel="noopener">
         <img
-          src="../../assets/img/servers/tatsu-lounge.png"
+          src="../../assets/img/servers/dyno.png"
           loading="lazy"
-          title="Tatsu's Lounge"
-          alt="Tatsu's Lounge"
+          title="Dyno™"
+          alt="Dyno™"
         >
       </a>
       <a href="https://discord.gg/kurzgesagt" target="_blank" rel="noopener">

@@ -35,6 +35,14 @@
       </a>
     </div>
     <div class="column is-half">
+      <a href="https://discord.gg/pokemonunite" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/r-pokemon-unite.png"
+          loading="lazy"
+          title="r/PokemonUnite"
+          alt="r/PokemonUnite"
+        >
+      </a>
       <a href="https://discord.gg/imagine" target="_blank" rel="noopener">
         <img
           src="../../assets/img/servers/pure-imagination.png"
