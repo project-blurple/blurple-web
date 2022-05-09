@@ -113,7 +113,11 @@
       this.$data.blurple = data.blurple && (
         data.blurple > 2000
           ? (Math.round(data.blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
-          : (Math.floor(data.blurple / 10) * 10).toLocaleString() // 123 => 120
+          : (
+            data.blurple < 10
+              ? data.blurple.toLocaleString()
+              : (Math.floor(data.blurple / 10) * 10).toLocaleString() // 123 => 120
+          )
       );
     },
     created () {

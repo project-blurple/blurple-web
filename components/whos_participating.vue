@@ -104,13 +104,33 @@
       this.$data.blurple = data.blurple && (
         data.blurple > 2000
           ? (Math.round(data.blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
-          : (Math.floor(data.blurple / 10) * 10).toLocaleString() + '+' // 123 => 120
+          : (
+            data.blurple < 10
+              ? data.blurple.toLocaleString()
+              : (Math.floor(data.blurple / 10) * 10).toLocaleString() + '+' // 123 => 120+
+          )
       );
-      this.$data.servers = data.servers && (Math.floor(data.servers / 10) * 10).toLocaleString(); // 123 => 120
+      this.$data.servers = data.servers && (
+        data.servers < 10
+          ? data.servers.toLocaleString()
+          : (Math.floor(data.servers / 10) * 10).toLocaleString() // 123 => 120
+      );
       this.$data.donators = data.donators && data.donators.toLocaleString();
-      this.$data.artists = data.artists && (Math.floor(data.artists / 10) * 10).toLocaleString(); // 123 => 120
-      this.$data.painters = data.painters && (Math.floor(data.painters / 10) * 10).toLocaleString(); // 123 => 120
-      this.$data.adventurers = data.adventurers && (Math.floor(data.adventurers / 10) * 10).toLocaleString(); // 123 => 120
+      this.$data.artists = data.artists && (
+        data.artists < 10
+          ? data.artists.toLocaleString()
+          : (Math.floor(data.artists / 10) * 10).toLocaleString() // 123 => 120
+      );
+      this.$data.painters = data.painters && (
+        data.painters < 10
+          ? data.painters.toLocaleString()
+          : (Math.floor(data.painters / 10) * 10).toLocaleString() // 123 => 120
+      );
+      this.$data.adventurers = data.adventurers && (
+        data.adventurers < 10
+          ? data.adventurers.toLocaleString()
+          : (Math.floor(data.adventurers / 10) * 10).toLocaleString() // 123 => 120
+      );
     },
     created () {
       // Decide which birthday year to show
