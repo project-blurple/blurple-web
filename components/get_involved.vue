@@ -1,5 +1,5 @@
 <template>
-  <section class="section actions-list" id="get-involved">
+  <section id="get-involved" class="section actions-list">
     <div class="container">
       <div class="columns">
         <div class="column is-three-quarters is-full-tablet">

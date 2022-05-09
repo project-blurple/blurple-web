@@ -1,5 +1,5 @@
 <template>
-  <section class="section" id="what-is-project-blurple">
+  <section id="what-is-project-blurple" class="section">
     <div class="container">
       <div class="columns">
         <div class="column is-three-quarters is-full-tablet">
