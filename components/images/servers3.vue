@@ -1,6 +1,14 @@
 <template>
   <div class="columns images">
     <div class="column is-half">
+      <a href="https://discord.gg/mkbhd" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/mkbhd.png"
+          loading="lazy"
+          title="MKBHD"
+          alt="MKBHD"
+        >
+      </a>
       <a href="https://discord.gg/langs" target="_blank" rel="noopener">
         <img
           src="../../assets/img/servers/practice-your-language.png"
@@ -31,6 +39,14 @@
           loading="lazy"
           title="Sound's World"
           alt="Sound's World"
+        >
+      </a>
+      <a href="https://discord.gg/mariokart" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/mario-kart.png"
+          loading="lazy"
+          title="Mario Kart"
+          alt="Mario Kart"
         >
       </a>
     </div>
@@ -73,6 +89,14 @@
           loading="lazy"
           title="SWTOR"
           alt="SWTOR"
+        >
+      </a>
+      <a href="https://discord.gg/dDvdeA8Jqz" target="_blank" rel="noopener">
+        <img
+          src="../../assets/img/servers/pycord.png"
+          loading="lazy"
+          title="Pycord"
+          alt="Pycord"
         >
       </a>
     </div>
