@@ -27,5 +27,6 @@ module.exports = {
     quotes: ['error', 'single'],
     'comma-dangle': ['error', 'always-multiline'],
     'vue/multi-word-component-names': 'off',
+    'vue/no-reserved-component-names': 'off',
   },
 };

@@ -1,6 +1,6 @@
 <template>
   <section class="section error">
-    <img src="../assets/img/outage.svg" alt="!">
+    <img src="~/assets/img/outage.svg" alt="!">
     <h1 v-if="error.statusCode === 404" class="title">
       You're lost, go home.
     </h1>

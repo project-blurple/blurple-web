@@ -23,18 +23,13 @@ $family-headline: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial
 $footer-background-color: $black;
 
 // Import the bits of bulma we need
-@import "~bulma/sass/utilities/all";
-@import "~bulma/sass/base/all";
-@import "~bulma/sass/layout/all";
-@import "~bulma/sass/grid/columns";
-@import "~bulma/sass/elements/container";
-@import "~bulma/sass/elements/title";
-@import "~bulma/sass/components/media";
-
-// Import the custom fonts
-@import "../fonts/ginto-nord/stylesheet.css";
-@import "../fonts/ginto-normal/stylesheet.css";
-@import "../fonts/whitney/stylesheet.css";
+@import "bulma/sass/utilities/all";
+@import "bulma/sass/base/all";
+@import "bulma/sass/layout/all";
+@import "bulma/sass/grid/columns";
+@import "bulma/sass/elements/container";
+@import "bulma/sass/elements/title";
+@import "bulma/sass/components/media";
 
 // Import our components
 @import "base";

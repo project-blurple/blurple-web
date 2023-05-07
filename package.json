@@ -6,25 +6,22 @@
   "license": "GPL-3.0-or-later",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "generate": "nuxt generate",
-    "analyze": "nuxt build --analyze",
+    "dev": "nuxi dev",
+    "generate": "nuxi generate",
+    "analyze": "nuxi analyze",
     "lint": "npm run lint:eslint",
     "lint:fix": "npm run lint:eslint:fix",
     "lint:eslint": "eslint --ignore-path .gitignore '**/*.@(js|vue)'",
     "lint:eslint:fix": "npm run lint:eslint -- --fix"
   },
   "dependencies": {
-    "nuxt": "^2.15.8"
+    "nuxt": "^3.4.3"
   },
   "devDependencies": {
-    "@nuxtjs/eslint-config": "^10.0.0",
-    "@nuxtjs/google-analytics": "^2.4.0",
-    "bulma": "^0.9.3",
-    "eslint": "^8.15.0",
-    "eslint-plugin-nuxt": "^3.2.0",
-    "ordinal": "^1.0.3",
-    "sass": "^1.51.0",
-    "sass-loader": "^10.2.1"
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "bulma": "^0.9.4",
+    "eslint": "^8.40.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "ordinal": "^1.0.3"
   }
 }
