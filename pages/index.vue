@@ -4,7 +4,7 @@
     <Header />
     <GetInvolved />
     <Colors />
-    <WhosParticipating />
+    <!-- <WhosParticipating /> -->
     <WhatIsProjectBlurple />
     <Footer />
   </div>
@@ -15,7 +15,7 @@
   import Header from '../components/header';
   import GetInvolved from '../components/get_involved';
   import Colors from '../components/colors';
-  import WhosParticipating from '../components/whos_participating';
+  // import WhosParticipating from '../components/whos_participating';
   import WhatIsProjectBlurple from '../components/what_is_project_blurple';
   import Footer from '../components/footer';
 
@@ -25,7 +25,7 @@
       Header,
       GetInvolved,
       Colors,
-      WhosParticipating,
+      // WhosParticipating,
       WhatIsProjectBlurple,
       Footer,
     },

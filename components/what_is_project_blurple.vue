@@ -7,9 +7,9 @@
             What is Project Blurple?
           </h1>
 
-          <p>
+          <!-- <p>
             If you've got this far, you might have some idea, but what exactly is Project Blurple?
-          </p>
+          </p> -->
 
           <blockquote>
             <p>
@@ -73,8 +73,8 @@
 
           <blockquote>
             <p>
-              We're back for {{ year }} and we had yet another amazing event to celebrate Discord's birthday, with over
-              {{ blurple }} Blurple users marking themselves as participating with a Blurple themed avatar this year!
+              Project Blurple continues to celebrate Discord's birthday every year, with Blurple users all across
+              Discord marking themselves as participating with a Blurple themed avatar for {{ year }}!
             </p>
           </blockquote>
         </div>
@@ -97,10 +97,11 @@
     data () {
       return {
         year: 2015,
-        blurple: '...',
+        // blurple: '...',
       };
     },
     async fetch () {
+      /*
       // Fetch the stats
       const resp = await fetch(process.env.statsUrl);
       if (!resp.ok) {
@@ -119,6 +120,7 @@
               : (Math.floor(data.blurple / 10) * 10).toLocaleString() // 123 => 120
           )
       );
+      */
     },
     created () {
       // Decide which birthday year to show
@@ -126,6 +128,6 @@
       const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
       this.$data.year = now.getFullYear() - (now < start ? 1 : 0);
     },
-    fetchOnServer: false,
+    // fetchOnServer: false,
   };
 </script>
