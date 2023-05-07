@@ -24,7 +24,11 @@
             <li>
               <p>
                 We also have a community subreddit at
-                <code><a href="https://www.reddit.com/r/projectblurple" target="_blank" rel="noopener">
+                <code><a
+                  href="https://www.reddit.com/r/projectblurple"
+                  target="_blank"
+                  rel="noopener"
+                >
                   reddit.com/r/projectblurple</a></code> that you can join, where you can share Blurple images, memories
                 from past events and using Discord, as well as anything else you can think of!
               </p>
@@ -33,7 +37,11 @@
             <li>
               <p>
                 Get the latest updates from Project Blurple in your timeline by following
-                <code><a href="https://twitter.com/BlurpleProject" target="_blank" rel="noopener">@BlurpleProject</a></code>
+                <code><a
+                  href="https://twitter.com/BlurpleProject"
+                  target="_blank"
+                  rel="noopener"
+                >@BlurpleProject</a></code>
                 on Twitter. The Project Blurple executive team all have access to this account and share updates about the
                 celebrations on it.
               </p>

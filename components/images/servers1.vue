@@ -1,7 +1,11 @@
 <template>
   <div class="columns images">
     <div class="column is-half">
-      <a href="https://discord.gg/ncEPCTC" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/ncEPCTC"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/dyno.png"
           loading="lazy"
@@ -9,7 +13,11 @@
           alt="Dyno™"
         >
       </a>
-      <a href="https://discord.gg/kurzgesagt" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/kurzgesagt"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/kurzgesagt.png"
           loading="lazy"
@@ -19,7 +27,11 @@
       </a>
     </div>
     <div class="column is-half">
-      <a href="https://discord.gg/VqnKpAg" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/VqnKpAg"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/ayana.png"
           loading="lazy"
@@ -27,7 +39,11 @@
           alt="Ayana Community"
         >
       </a>
-      <a href="https://discord.gg/PhuwrDtVjJ" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/PhuwrDtVjJ"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/thank-you-discord.png"
           loading="lazy"

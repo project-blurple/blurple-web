@@ -1,5 +1,8 @@
 <template>
-  <section id="get-involved" class="section actions-list">
+  <section
+    id="get-involved"
+    class="section actions-list"
+  >
     <div class="container">
       <div class="columns">
         <div class="column is-full is-full-tablet">

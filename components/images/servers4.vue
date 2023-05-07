@@ -1,7 +1,11 @@
 <template>
   <div class="columns images is-light">
     <div class="column is-half">
-      <a href="https://discord.gg/fr" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/fr"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/slash-fr.png"
           loading="lazy"
@@ -9,7 +13,11 @@
           alt="Slash FR"
         >
       </a>
-      <a href="https://discord.gg/tradecentral" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/tradecentral"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/trade-central.png"
           loading="lazy"
@@ -19,7 +27,11 @@
       </a>
     </div>
     <div class="column is-half">
-      <a href="https://discord.gg/pFUhE5z" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/pFUhE5z"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/blob-emoji.png"
           loading="lazy"
@@ -27,7 +39,11 @@
           alt="Blob Emoji"
         >
       </a>
-      <a href="https://discord.gg/miitopia" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/miitopia"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/miitopia.png"
           loading="lazy"

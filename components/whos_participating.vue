@@ -1,5 +1,9 @@
 <template>
-  <section v-if="visible" id="whos-participating" class="section">
+  <section
+    v-if="visible"
+    id="whos-participating"
+    class="section"
+  >
     <div class="container">
       <div class="columns">
         <div class="column is-full is-full-tablet">

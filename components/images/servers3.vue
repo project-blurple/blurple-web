@@ -1,7 +1,11 @@
 <template>
   <div class="columns images">
     <div class="column is-half">
-      <a href="https://discord.gg/mkbhd" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/mkbhd"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/mkbhd.png"
           loading="lazy"
@@ -9,7 +13,11 @@
           alt="MKBHD"
         >
       </a>
-      <a href="https://discord.gg/langs" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/langs"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/practice-your-language.png"
           loading="lazy"
@@ -17,7 +25,11 @@
           alt="Practice Your Language"
         >
       </a>
-      <a href="https://discord.gg/cYakVbr" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/cYakVbr"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/car-crushers-roblox-community.png"
           loading="lazy"
@@ -25,7 +37,11 @@
           alt="Car Crushers Roblox Community"
         >
       </a>
-      <a href="https://discord.gg/program" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/program"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/world-of-coding.png"
           loading="lazy"
@@ -33,7 +49,11 @@
           alt="World of Coding"
         >
       </a>
-      <a href="https://discord.gg/sound" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/sound"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/sounds-world.png"
           loading="lazy"
@@ -41,7 +61,11 @@
           alt="Sound's World"
         >
       </a>
-      <a href="https://discord.gg/mariokart" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/mariokart"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/mario-kart.png"
           loading="lazy"
@@ -51,7 +75,11 @@
       </a>
     </div>
     <div class="column is-half">
-      <a href="https://discord.gg/pokemonunite" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/pokemonunite"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/r-pokemon-unite.png"
           loading="lazy"
@@ -59,7 +87,11 @@
           alt="r/PokemonUnite"
         >
       </a>
-      <a href="https://discord.gg/imagine" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/imagine"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/pure-imagination.png"
           loading="lazy"
@@ -67,7 +99,11 @@
           alt="Pure Imagination"
         >
       </a>
-      <a href="https://discord.gg/pepe" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/pepe"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/pepe-server.png"
           loading="lazy"
@@ -75,7 +111,11 @@
           alt="Pepe Server"
         >
       </a>
-      <a href="https://discord.gg/wonderlands" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/wonderlands"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/tiny-tinas-wonderlands.png"
           loading="lazy"
@@ -83,7 +123,11 @@
           alt="Tiny Tina's Wonderlands"
         >
       </a>
-      <a href="https://discord.gg/swtor" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/swtor"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/swtor.png"
           loading="lazy"
@@ -91,7 +135,11 @@
           alt="SWTOR"
         >
       </a>
-      <a href="https://discord.gg/dDvdeA8Jqz" target="_blank" rel="noopener">
+      <a
+        href="https://discord.gg/dDvdeA8Jqz"
+        target="_blank"
+        rel="noopener"
+      >
         <img
           src="~/assets/img/servers/pycord.png"
           loading="lazy"

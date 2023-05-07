@@ -1,5 +1,8 @@
 <template>
-  <section id="what-is-project-blurple" class="section">
+  <section
+    id="what-is-project-blurple"
+    class="section"
+  >
     <div class="container">
       <div class="columns">
         <div class="column is-full is-full-tablet">
