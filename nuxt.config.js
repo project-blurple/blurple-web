@@ -64,4 +64,5 @@ export default defineNuxtConfig({
     baseUrl,
     statsUrl,
   },
+  telemetry: false,
 });
