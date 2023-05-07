@@ -2,7 +2,7 @@
   <section id="get-involved" class="section actions-list">
     <div class="container">
       <div class="columns">
-        <div class="column is-three-quarters is-full-tablet">
+        <div class="column is-full is-full-tablet">
           <h1 class="title">
             Get Involved
           </h1>
@@ -46,21 +46,19 @@
             </li>
           </ol>
         </div>
-        <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
+        <!-- <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
           <ServerImages1 />
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
 </template>
 
 <script>
-  import ServerImages1 from './images/servers1';
+  // import ServerImages1 from './images/servers1';
 
   export default {
     name: 'GetInvolved',
-    components: {
-      ServerImages1,
-    },
+    // components: { ServerImages1 },
   };
 </script>

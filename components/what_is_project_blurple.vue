@@ -2,7 +2,7 @@
   <section id="what-is-project-blurple" class="section">
     <div class="container">
       <div class="columns">
-        <div class="column is-three-quarters is-full-tablet">
+        <div class="column is-full is-full-tablet">
           <h1 class="title">
             What is Project Blurple?
           </h1>
@@ -78,22 +78,20 @@
             </p>
           </blockquote>
         </div>
-        <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
+        <!-- <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
           <ServerImages3 />
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
 </template>
 
 <script>
-  import ServerImages3 from './images/servers3';
+  // import ServerImages3 from './images/servers3';
 
   export default {
     name: 'WhatIsProjectBlurple',
-    components: {
-      ServerImages3,
-    },
+    // components: { ServerImages3 },
     data () {
       return {
         year: 2015,

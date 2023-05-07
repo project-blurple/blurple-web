@@ -2,7 +2,7 @@
   <section id="whos-participating" class="section">
     <div class="container">
       <div class="columns">
-        <div class="column is-three-quarters is-full-tablet">
+        <div class="column is-full is-full-tablet">
           <h1 class="title">
             Who's participating
           </h1>
@@ -59,9 +59,9 @@
             the world, building new homes, designing exciting new skins and forging new friendships.
           </p>
         </div>
-        <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
+        <!-- <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
           <ServerImages2 />
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -69,13 +69,11 @@
 
 <script>
   import ordinal from 'ordinal/indicator';
-  import ServerImages2 from './images/servers2';
+  // import ServerImages2 from './images/servers2';
 
   export default {
     name: 'WhosParticipating',
-    components: {
-      ServerImages2,
-    },
+    // components: { ServerImages2 },
     data () {
       return {
         active: false,

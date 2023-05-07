@@ -2,7 +2,7 @@
   <footer class="footer section actions-list">
     <div class="container">
       <div class="columns">
-        <div class="column is-three-quarters is-full-tablet">
+        <div class="column is-full is-full-tablet">
           <h1 class="title">
             Where can I find out more?
           </h1>
@@ -40,9 +40,9 @@
             </li>
           </ol>
         </div>
-        <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
+        <!-- <div class="column is-one-quarter is-hidden-tablet-only is-hidden-mobile">
           <ServerImages4 />
-        </div>
+        </div> -->
       </div>
 
       <p>
@@ -79,11 +79,11 @@
 </template>
 
 <script>
-  import ServerImages4 from '../components/images/servers4';
+  // import ServerImages4 from '../components/images/servers4';
 
   export default {
     name: 'Footer',
-    components: { ServerImages4 },
+    // components: { ServerImages4 },
     data () {
       return {
         year: new Date().getFullYear(),
