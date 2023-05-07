@@ -29,6 +29,8 @@
       };
     },
     created () {
+      // This runs during the server-side render, and the client-side hydration
+
       // Decide what message to show
       const now = new Date();
       const first = new Date(`${now.getFullYear()}-05-13T00:00:00+1400`);

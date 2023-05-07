@@ -95,37 +95,15 @@
     data () {
       return {
         year: 2015,
-        // blurple: '...',
       };
     },
-    async fetch () {
-      /*
-      // Fetch the stats
-      const resp = await fetch(process.env.statsUrl);
-      if (!resp.ok) {
-        const text = await resp.text().catch(() => '');
-        throw new Error(`Failed to fetch stats: ${resp.status} ${resp.statusText} - ${text}`);
-      }
-
-      // Parse JSON and translate to useful data
-      const data = await resp.json();
-      this.$data.blurple = data.blurple && (
-        data.blurple > 2000
-          ? (Math.round(data.blurple / 100) / 10).toLocaleString() + 'k' // 1234 => 1.2k
-          : (
-            data.blurple < 10
-              ? data.blurple.toLocaleString()
-              : (Math.floor(data.blurple / 10) * 10).toLocaleString() // 123 => 120
-          )
-      );
-      */
-    },
     created () {
+      // This runs during the server-side render, and the client-side hydration
+
       // Decide which birthday year to show
       const now = new Date();
       const start = new Date(`${now.getFullYear()}-05-07T10:30:00+0000`);
       this.$data.year = now.getFullYear() - (now < start ? 1 : 0);
     },
-    // fetchOnServer: false,
   };
 </script>

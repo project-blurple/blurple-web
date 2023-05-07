@@ -1,7 +1,7 @@
 /* global defineNuxtConfig */
 
 const baseUrl = 'https://projectblurple.com';
-const statsUrl = 'https://project-blurple-api.but-it-actually.works/stats';
+const statsUrl = 'https://api.projectblurple.com/stats';
 const name = 'Project Blurple';
 const desc = 'Celebrating Discord\'s Birthday!';
 const color = '#5865F2';
@@ -60,9 +60,10 @@ export default defineNuxtConfig({
     '~/assets/fonts/ginto-nord/stylesheet.css',
     '~/assets/scss/style.scss',
   ],
-  env: {
-    baseUrl,
-    statsUrl,
+  runtimeConfig: {
+    public: {
+      statsUrl,
+    },
   },
   telemetry: false,
 });

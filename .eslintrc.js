@@ -6,9 +6,7 @@ module.exports = {
   },
   extends: [
     'eslint:recommended',
-    '@nuxtjs',
-    'plugin:nuxt/recommended',
-    'plugin:vue/recommended',
+    '@nuxt/eslint-config',
   ],
   parserOptions: {
     ecmaVersion: 2020,

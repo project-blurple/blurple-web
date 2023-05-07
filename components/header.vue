@@ -48,6 +48,8 @@
       };
     },
     created () {
+      // This runs during the server-side render, and the client-side hydration
+
       // Decide which birthday year to show
       const now = new Date();
       const sixMonths = new Date(`${now.getFullYear()}-11-13T00:00:00+0000`);
@@ -66,6 +68,8 @@
       }
     },
     mounted () {
+      // This runs client-side only, after hydration
+
       // Do we need to start the countdown
       if (this.$data.countdownDate !== null) {
         this.$data.countdown = true;
