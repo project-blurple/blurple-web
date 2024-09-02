@@ -15,12 +15,13 @@
     "lint:eslint:fix": "npm run lint:eslint -- --fix"
   },
   "dependencies": {
-    "nuxt": "^3.4.3"
+    "nuxt": "^3.12.4"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
     "bulma": "^0.9.4",
     "eslint": "^8.40.0",
-    "ordinal": "^1.0.3"
+    "ordinal": "^1.0.3",
+    "sass-embedded": "^1.77.8"
   }
 }
