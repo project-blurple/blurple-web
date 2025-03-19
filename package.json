@@ -15,7 +15,7 @@
     "lint:eslint:fix": "npm run lint:eslint -- --fix"
   },
   "dependencies": {
-    "nuxt": "^3.12.4"
+    "nuxt": "^3.16.0"
   },
   "devDependencies": {
     "@nuxt/eslint-config": "^0.1.1",
