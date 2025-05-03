@@ -26,10 +26,10 @@
                 Change your Discord avatar to use Blurple colors.
                 <br>
                 Use our <code><a
-                  href="https://projectblurple.com/paint/"
+                  href="https://paint.projectblurple.com/"
                   target="_blank"
                   rel="noopener"
-                  data-print="projectblurple.com/paint"
+                  data-print="paint.projectblurple.com"
                 >blurple paint tool</a></code> or join the Discord server and use the Blurplefier bots.
               </p>
             </li>
